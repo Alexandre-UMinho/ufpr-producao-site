@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acervo Digital - Eng. Produção UFPR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        .acervo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem; }
+        .doc-card { background: rgba(0,0,0,0.3); border: 1px solid var(--glass-border); padding: 2rem; border-radius: 15px; text-align: center; transition: transform 0.3s ease; }
+        .doc-card:hover { transform: translateY(-10px); border-color: var(--primary); box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2); }
+        .doc-icon { font-size: 3rem; margin-bottom: 1rem; }
+        .doc-title { color: #f8fafc; font-size: 1.2rem; margin-bottom: 1rem; }
+        .doc-desc { color: #94a3b8; font-size: 0.9rem; margin-bottom: 1.5rem; line-height: 1.6; }
+        .btn-download { display: inline-block; background: var(--primary); color: white; padding: 0.8rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: bold; transition: background 0.3s; }
+        .btn-download:hover { background: #2563eb; }
+    </style>
+</head>
+<body>
+    <nav class="navbar glass-card">
+        <div class="nav-brand">UFPR | Produção</div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/#grade">Grade Curricular</a></li>
+            <li><a href="/acervo" class="active" style="color: var(--primary);">Acervo Digital</a></li>
+            <li><a href="/admin">Portal Docente</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content" style="max-width: 800px;">
+            <h1 class="glitch-text" data-text="Acervo Digital">Acervo Digital</h1>
+            <p class="hero-subtitle">Documentos oficiais, ementários e materiais didáticos do curso de Engenharia de Produção.</p>
+        </div>
+    </header>
+
+    <section class="section container">
+        <div class="acervo-grid">
+            <div class="doc-card">
+                <div class="doc-icon">📑</div>
+                <h3 class="doc-title">Ementário Completo (PPC 2023)</h3>
+                <p class="doc-desc">Documento oficial com todas as ementas, bibliografias e carga horária das disciplinas do curso.</p>
+                <a href="/download/ementario-ppc-2023.pdf" class="btn-download" target="_blank">Baixar PDF (215 pág)</a>
+            </div>
+            
+            <div class="doc-card">
+                <div class="doc-icon">📜</div>
+                <h3 class="doc-title">Resolução nº 22/25 CEPE</h3>
+                <p class="doc-desc">Resolução de aprovação e regulamentação oficial do Projeto Pedagógico do Curso.</p>
+                <a href="/download/resolucao-no-22-25-cepe.pdf" class="btn-download" target="_blank">Baixar PDF</a>
+            </div>
+
+            <div class="doc-card" style="border-color: #10b981;">
+                <div class="doc-icon">📘</div>
+                <h3 class="doc-title">Engenharia da Qualidade</h3>
+                <p class="doc-desc">Material de estudo completo, traduzido e otimizado sobre Controle Estatístico de Processos (CEP) e Cartas de Controle.</p>
+                <a href="/download/Quality_Engineering_Notion.md" class="btn-download" style="background: #10b981;" target="_blank">Acessar Material</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Chatbot -->
+    <div class="chatbot-container">
+        <button id="chatbot-toggle" class="chatbot-toggle">💬</button>
+        <div id="chatbot-window" class="chatbot-window">
+            <div class="chatbot-header">
+                <h3>Assistente do Curso</h3>
+                <button id="chatbot-close">✕</button>
+            </div>
+            <div id="chatbot-messages" class="chatbot-messages">
+                <div class="message bot-message">Olá! Sou o assistente virtual (IA). Pergunte-me sobre matrículas, horários ou Ementas!</div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chat-input" placeholder="Digite sua dúvida...">
+                <button id="chat-send">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,926 @@
+{
+  "CÁLCULO I": {
+    "code": "JAN001A",
+    "ementa": "Conjuntos, conjuntos numéricos; Expressões racionais e radicais; Inequações e valor absoluto; Funções: modular, polinomiais, exponenciais, logarítmicas e trigonométricas; Limites de uma função real; Continuidade de uma função real; Derivadas: definição, taxa de variação, regras de derivação, derivação superior, derivação implícita."
+  },
+  "QUÍMICA GERAL TEÓRICA": {
+    "code": "JAN002A",
+    "ementa": "Estrutura atômica. Tabela Periódica. Ligação química. Reações químicas e estequiometria. Fundamentos de cinética Química. Equilíbrio químico."
+  },
+  "ÁLGEBRA LINEAR E GEOMETRIA ANALÍTICA": {
+    "code": "JAN003A",
+    "ementa": "Teoria de matrizes. Sistemas de equações lineares. Métodos de escalonamento para resolução de sistemas lineares, determinantes e inversão de matrizes. Sistemas de coordenadas cartesianas e polares. Espaços vetoriais euclidianos. Espaço vetorial de dimensão n. Vetores bi, tri e n- dimensionais. Operações sobre vetores. Norma, produto escalar, ângulos e distâncias em Rn. Ortogonalidade. Retas e planos. Produto vetorial e produto misto. Transformações lineares. Autovalores e Autovetores."
+  },
+  "CIÊNCIA, TECNOLOGIA E SOCIEDADE": {
+    "code": "JAN004A",
+    "ementa": "Conceitos de ciência, tecnologia e técnica. Breve histórico dos avanços científicos e tecnológicos. História e Cultura Afro-Brasileira e Indígena. Direitos Humanos e Cidadania Participativa. Desenvolvimento científico e tecnológico e estrutura social. Contexto atual de CTS no mundo. Tecnologia e suas implicações. Relações entre ciência e cidadania. A modernidade, globalização, mercados e consumo. Geopolítica da produção de alimentos. Influências da ciência e da tecnologia na organização social. Relações entre ciência, tecnologia e sociedade. Perspectivas em CTS."
+  },
+  "INTRODUÇÃO À ENGENHARIA DE PRODUÇÃO": {
+    "code": "JEP081A",
+    "ementa": "Introdução às áreas de formação/atuação na Engenharia de Produção. Os sistemas regulamentadores CONFEA/ CREA. Gestão e Engenharia da Qualidade. Gestão de Operações e Processos de Produção. Logística. Pesquisa Operacional. Engenharia do Trabalho. Gestão de Tecnologia e Gestão do Conhecimento. Engenharia Econômica. Estratégias e Organizações. Engenharia do Produto. Gestão Ambiental e Engenharia da Sustentabilidade. Responsabilidade Social, Ética e Sustentabilidade. Educação em Engenharia de Produção."
+  },
+  "CÁLCULO II": {
+    "code": "JAN006A",
+    "ementa": "Aplicações de derivação: regra de L’Hospital; Valores máximo e mínimo de função de uma variável real; Otimização; Integrais: áreas; Integral definida; Teorema Fundamental do Cálculo; Integrais indefinidas; Regra da substituição; Técnicas de integração; Aplicações de integração."
+  },
+  "FÍSICA I": {
+    "code": "JAN007A",
+    "ementa": "Unidades e Grandezas Físicas. Movimento em uma Dimensão. Vetores. Movimento em Duas ou Três Dimensões. Leis de Newton. Aplicações das Leis de Newton. Trabalho e Energia Cinética. Energia Potencial e Conservação da Energia. Centro de Massa, Momento Linear, Impulso e Colisões."
+  },
+  "ESTATÍSTICA I": {
+    "code": "JAN009A",
+    "ementa": "Introdução à Estatística: Conceito de estudo ou pesquisa estatística. Etapas de um processo de análise de dados. Conceito de dados e informação. Tipos de dados e variáveis. Dados estruturados e não estruturados. Formato de dados tabular. Delineamento de experimentos ou amostragem. Métodos de amostragem. Medidas estatísticas: Média. Mediana. Moda. Desvio padrão. Variância. Coeficiente de variação. Valor máximo. Valor mínimo. Amplitude. Percentis e Quartis. Manipulação e resumo de dados: Coleta de dados. Tratamento de dados faltantes. Filtragem de colunas e registros de dados. Ordenação de registros. Agrupamentos por variáveis categóricas. Resumos estatísticos por agrupamentos. Visualização de dados: Gráficos de pontos. Gráficos de tendência. Gráficos de barras. Gráficos de setores. Gráficos de caixa. Tabelas de frequência e histogramas."
+  },
+  "METODOLOGIA CIENTÍFICA E TECNOLÓGICA": {
+    "code": "JAN022A",
+    "ementa": "Fundamentos da Metodologia Científica. Métodos e Técnicas de Pesquisa. Normas para Elaboração de Trabalhos Acadêmicos. Linguagem científica, norma padrão e tópicos de revisão textual. Gêneros acadêmicos: normalização e estruturação. Planejamento e elaboração de Pesquisa."
+  },
+  "FÍSICA EXPERIMENTAL I": {
+    "code": "JAN025A",
+    "ementa": "Introdução à teoria de erros. Movimento bidimensional. 2a lei de Newton. Queda livre e conservação da energia mecânica. Conservação do momento linear em colisões."
+  },
+  "PROCESSOS DE FABRICAÇÃO PARA EP": {
+    "code": "JEP010A",
+    "ementa": "Tolerâncias dimensionais e geométricas; definição de processos de fabricação para transformação de materiais metálicos com e sem remoção de cavaco; manufatura aditiva e prototipagem; introdução aos"
+  },
+  "ALGORITMOS E PROGRAMAÇÃO DE COMPUTADORES": {
+    "code": "JAN008A",
+    "ementa": "História da computação. Noções de hardware e software. Algoritmos: conceitos e formas de representação. Desenvolvimento de algoritmos em uma linguagem de programação de uso comum: entrada e saída de dados; tipos de dados básicos; operadores aritméticos, lógicos e relacionais; estrutura condicional e estrutura de repetição. Estruturas de dados básicas: agregados homogêneos unidimensionais e multidimensionais."
+  },
+  "CÁLCULO III": {
+    "code": "JAN011A",
+    "ementa": "Funções de várias variáveis: limites, continuidade, derivadas parciais,  gradiente, derivada direcional, plano tangente e derivadas de ordem superior e regra da cadeia; Máximos e Mínimos; Multiplicadores de Lagrange; Integral Dupla: coordenadas retangulares e polares; Integral Tripla: coordenadas retangulares, cilíndricas e esféricas."
+  },
+  "FÍSICA II": {
+    "code": "JAN012A",
+    "ementa": "Rotação de Corpos Rígidos. Dinâmica do Movimento de Rotação. Estática dos Fluidos. Dinâmica dos Fluidos. Oscilações. Ondas em Meios Elásticos. Ondas Sonoras. Temperatura, Lei 0 da Termodinâmica. Calor e Primeira Lei da Termodinâmica. Lei dos Gases Ideais. Entropia e Segunda Lei da Termodinâmica."
+  },
+  "ESTATÍSTICA II": {
+    "code": "JAN026A",
+    "ementa": "Probabilidades: Conceito de espaço amostral, eventos e probabilidades. Métodos para cálculo de probabilidades. Tipos de eventos. Eventos compostos. Eventos em cadeia. Distribuições de probabilidade: Distribuições discretas e contínuas. Distribuição normal. Distribuição normal padronizada. Distribuições amostrais e estimadores. Teorema do limite central. Estimativas por intervalo: Estimativa da média populacional. Estimativa da proporção populacional. Estimativa da variância populacional. Teste de hipótese: Teste para a média populacional. Teste para a proporção populacional. Teste para a variância populacional. Teste para a diferença entre duas médias populacionais. Correlação e regressão: Correlação. Regressão linear simples. Análise de variância: Anova de um fator. Anova de dois fatores."
+  },
+  "FÍSICA EXPERIMENTAL II": {
+    "code": "JAN028A",
+    "ementa": "Equilíbrio estático. Empuxo. Oscilações. Ondas estacionárias em cordas. Temperatura, calor, primeira lei da termodinâmica e segunda lei da termodinâmica. Lei do gás ideal."
+  },
+  "GERENCIAMENTO DE PROJETOS": {
+    "code": "JEP002A",
+    "ementa": "Concepções sobre projetos em engenharia. O planejamento, a operação e o controle de projetos. Competências em gestão de projetos. Sistemas de indicadores de desempenho em projetos. Análise de riscos e decisões em projetos. Mecanismos e ferramentas de apoio à gestão de projetos. Gestão Ágil e Lean em projetos."
+  },
+  "PROJETO INTEGRADOR EXTENSIONISTA I": {
+    "code": "JEP046A",
+    "ementa": "Fundamentação da Extensão. Princípios extensionistas. Metodologia da pesquisa-ação para Extensão Universitária. Identificação, diagnóstico e proposta de soluções para problemas relacionados à Engenharia de Produção, nas áreas de Gestão de Operações, Engenharia Organizacional e Engenharia da Qualidade."
+  },
+  "FÍSICA III": {
+    "code": "JAN017A",
+    "ementa": ""
+  },
+  "TECNOLOGIA DA DECISÃO I": {
+    "code": "JAN020A",
+    "ementa": "Introdução a Pesquisa Operacional; Modelos de Programação Linear; O Método Simplex; Dualidade; Análise de Pós- Otimização; Utilização de Softwares na resolução de PPL."
+  },
+  "FÍSICA EXPERIMENTAL III": {
+    "code": "JAN029A",
+    "ementa": "Cargas elétricas. Campo elétrico. Corrente, resistência e resistividade. Circuito elétrico e associação de resistores. Circuito RC. Lei da indução de Faraday e transformadores."
+  },
+  "ADMINISTRAÇÃO ESTRATÉGICA DE OPERAÇÕES": {
+    "code": "JEP006A",
+    "ementa": "Desenvolvimento das teorias da administração: antecedentes históricos, Funções administrativas clássicas: planejamento, organização. Estratégia de operações. Elaboração de estratégias de operações. Sistemas de medição de desempenho. Gerenciamento de capacidade. Processos de produção. Processos de serviços."
+  },
+  "PROJETO DO TRABALHO": {
+    "code": "JEP007A",
+    "ementa": "Evolução histórica das formas de organização do trabalho. Conceitos de capacidade de produção, produtividade, eficácia e eficiência na produção. Modelos esquemáticos de representação de operações e tarefas de produção. Estudo de tempos. Uso da antropometria, biomecânica e espaços de trabalho no estudo de métodos. Conceitos Básicos de Segurança do trabalho. Acidentes de trabalho. Riscos no trabalho: higiene e segurança do trabalho."
+  },
+  "CIÊNCIA DOS MATERIAIS PARA EP": {
+    "code": "JEP009A",
+    "ementa": "Introdução à Ciência dos Materiais. Ligações Químicas. Arranjos atômicos. Cristalografia e Difração de Raios-X. Imperfeições Estruturais. Microestrutura. Difusão. Diagramas de Fases. Crescimento de Cristais. Estrutura e Propriedades dos Materiais Poliméricos. Estrutura e Propriedades dos Materiais Cerâmicos. Estrutura e Propriedades dos Materiais Compósitos. Propriedades Eletrônicas dos Materiais. Propriedades"
+  },
+  "GESTÃO DA QUALIDADE": {
+    "code": "JEP014A",
+    "ementa": "Sistemas de Gestão da Qualidade Total (SGQ/TQC/TQM). Definições de Qualidade orientadas ao cliente e como estratégia competitiva, ambiente e sociedade. Planejamento da Qualidade para Produtos e Serviços. Gerenciamento por Processos e Diretrizes. Ferramentas e métodos para gestão da Qualidade. Sistemas de Medição de Desempenho e Controle. Normas para a Gestão da Qualidade. Métodos para promover a Melhoria Contínua. Os custos da qualidade de produtos e serviços."
+  },
+  "CÁLCULO NUMÉRICO": {
+    "code": "JAN013A",
+    "ementa": "Matrizes; Sistemas Lineares; Soluções de sistemas lineares; Zeros de funções algébricas e transcendentes; Interpolação polinomial; Integração Numérica."
+  },
+  "GESTÃO AMBIENTAL": {
+    "code": "JAN019A",
+    "ementa": "Poluentes. Legislação ambiental. Processos Industriais. Caracterização de carga poluidora. Monitoramento ambiental. Controle das poluições hídricas, atmosféricas e sonoras. Gerenciamento de resíduos sólidos. Educação ambiental. Gestão Ambiental."
+  },
+  "ECONOMIA": {
+    "code": "JEP001A",
+    "ementa": "Princípios fundamentais da economia e tópicos especiais em economia. A lei da Escassez e o sistema econômico (fluxo circular da renda). Conceitos básicos (modelos, fatores de produção e preços). Curva de possibilidade de produção. Demanda, oferta e equilíbrio de mercado. Elasticidade. Teoria dos custos. Organização Industrial e estrutura de mercado. Panorama do comércio internacional. Introdução à teoria de economia regional e urbana."
+  },
+  "MECÂNICA PARA ENGENHARIA DE PRODUÇÃO": {
+    "code": "JEP004A",
+    "ementa": "Fundamentos da mecânica newtoniana. Sistema de forças aplicados a um corpo rígido. Estática e dinâmica dos corpos rígidos. Análise de treliças isostáticas simples. Vigas. Forças internas. Cabos. Atrito. Centro de gravidade e centro de massa. Propriedades geométricas de áreas simples e compostas. Esforços simples. Cargas Axiais e Tensões. Lei de Hooke. Deformações em barras axialmente carregadas. Lei de Hooke generalizada. Estados Planos de Tensão. Vínculos Estruturais. Análise e diagramas de esforços em estruturas isostáticas. Flexão Pura em Vigas. Torção e Tensões de Cisalhamento. Introdução à síntese de engrenagens, cames e seguidores e mecanismos articulados."
+  },
+  "SISTEMAS DE PRODUÇÃO": {
+    "code": "JEP005A",
+    "ementa": "Sistemas de Produção, histórico. Caracterização dos Sistemas Produtivos. Conceito básicos dos objetivos e estratégias da produção. Sistemas Produção com base em Manufatura Enxuta (Lean Manufacturing). Sistemas Produção com base em Teoria das Restrições. Sistemas e Produção na Atualidade."
+  },
+  "ENGENHARIA ERGONÔMICA": {
+    "code": "JEP015A",
+    "ementa": ""
+  },
+  "ENGENHARIA DA QUALIDADE": {
+    "code": "JEP019A",
+    "ementa": "Introdução à Engenharia da Qualidade: métodos quantitativos de diagnóstico, monitoramento e otimização dirigidos à garantia da qualidade.? Ferramentas de diagnóstico. Introdução ao Controle Estatístico da Qualidade: Gráficos de controle para variáveis, Gráficos de controle para atributos. Estudos de capacidade do processo (índices de capacidade do processo). Introdução ao planejamento e avaliação de experimentos. Metodologia Seis Sigma: Método DMAIC."
+  },
+  "PROJETO INTEGRADOR EXTENSIONISTA II": {
+    "code": "JEP047A",
+    "ementa": "Metodologia da pesquisa-ação aplicada a Engenharia de Produção. Identificação, diagnóstico e proposta de soluções para problemas relacionados à Engenharia de Produção, nas áreas de Gestão de Operações, Engenharia da Qualidade, Engenharia do Produto e Engenharia do Trabalho."
+  },
+  "FENÔMENOS DE TRANSPORTE": {
+    "code": "JAN018A",
+    "ementa": "Propriedades dos fluidos. Pressão e Estática dos Fluidos. Cinemática dos Fluidos. Equações de Conservação para Tubos de Corrente: Equação da Continuidade, Equação de Bernoulli e de Energia, Equação de Momento. Análise Dimensional. Escoamento Interno. Análise Diferencial do Escoamento de Fluidos. Escoamento externo: arrasto e sustentação. Escoamento em Canal Aberto. Escoamento Compressível."
+  },
+  "TECNOLOGIA DA DECISÃO II": {
+    "code": "JEP003A",
+    "ementa": "Programação Linear Inteira, Binária e Mista. Teoria dos Grafos: O Problema do Transporte; O Problema da Designação; Otimização em Redes. Algoritmos heurísticos para resolução de Problemas com variáveis inteiras e binárias. Utilização de Softwares para Resolução de PPLI, PPLB e Mista. Implementação Computacional de Algoritmos da Pesquisa Operacional."
+  },
+  "PROJETO E DESENVOLVIMENTO DE PRODUTOS": {
+    "code": "JEP020A",
+    "ementa": "Gestão do desenvolvimento do projeto do produto: planejamento, projeto detalhado, pós-desenvolvimento e produção. Métodos, técnicas e ferramentas aplicadas no processo de engenharia. Formalização e documentação do processo de projeto e de desenvolvimento do produto."
+  },
+  "CONTABILIDADE E CUSTOS INDUSTRIAIS": {
+    "code": "JEP022A",
+    "ementa": "Estrutura contábil. Contabilidade Legal e Contabilidade Gerencial. Demonstrativos contáveis e suas finalidades. Análise através de indicadores, verticais e horizontais. Estudos dos métodos e importância dos custos industriais. Sistemas de custeio: Método ABC, RKW, UEP e aplicabilidade da TOC. Estratégias e metodologias de precificação."
+  },
+  "SISTEMAS DE MANUTENÇÃO E CONFIABILIDADE": {
+    "code": "JEP023A",
+    "ementa": "Planejamento e Controle da Manutenção (PCM). Manutenção Centrada em Confiabilidade (MCC). Manutenção Produtiva Total (MPT, TPM - Total Productive Maintenance). Tipos de manutenção. Sistemas de manutenção e monitoramento de processos e produtos. Taxa de falha e curvas de confiabilidade. Tempo Médio Entre Falhas (MTBF - Mean Time Between Failures), Tempo Médio de Reparo (MTTR - Mean Time to Repair) e Tempo Médio Entre Falhas (MTTF  – Mean Time To Failure). Estimativa e avaliação da Confiabilidade de processos e equipamentos. Indicadores de desempenho e análise e tratamento da confiabilidade de sistemas. Overall Equipament Effectivences (OEE). Sistemas de tratamento de falha (FTA - Fault tree analysis e FMEA - Failure mode and effect analysis)."
+  },
+  "ECONOMIA CIRCULAR": {
+    "code": "JEP048A",
+    "ementa": "Economia Circular e Sustentabilidade. Antecedentes teóricos da Economia Circular: Ecologia Industrial, Simbiose Industrial e Avaliação do Ciclo de Vida. Evolução e Desafios da Economia Circular. Princípios da Economia Circular. Áreas fundamentais da transição para a Economia Circular. Modelos de negócios para a Economia Circular."
+  },
+  "PROJETO INTEGRADOR EXTENSIONISTA III": {
+    "code": "JEP049A",
+    "ementa": "Metodologia da pesquisa-ação aplicada a Engenharia de Produção. Identificação, diagnóstico e proposta de soluções para problemas relacionados à Engenharia de Produção, nas áreas de Engenharia da Sustentabilidade, Engenharia Econômica e Engenharia do Produto."
+  },
+  "PLANEJAMENTO DE VENDAS E OPERAÇÕES": {
+    "code": "JEP052A",
+    "ementa": "Análise de mercado, previsão de vendas e estratégia de Marketing. Definições e fundamentos do processo de Planejamento de Vendas e Operações (PVO - S&OP). Preparação e organização do modelo PVO. Fluxo operacional PVO. Análise, controle e gestão do ciclo PVO."
+  },
+  "GESTÃO DE PESSOAS": {
+    "code": "JAN005A",
+    "ementa": "Gestão de pessoas em ambientes dinâmicos. Planejamento estratégico de gestão de pessoas. Recrutamento e seleção de pessoas. Orientação de pessoas. Modelagem do Trabalho. Avaliação de desempenho humano. Remuneração. Programas de incentivos. Benefícios e serviços. Treinamento. Relações com empregados e gestão de conflitos."
+  },
+  "TECNOLOGIA DA DECISÃO III": {
+    "code": "JEP008A",
+    "ementa": "Programação Dinâmica. Programação Não-Linear. Teoria dos Jogos. Implementação Computacional de Algoritmos da Pesquisa Operacional."
+  },
+  "EMPREENDEDORISMO": {
+    "code": "JEP018A",
+    "ementa": "Conceitos sobre empreendedorismo e inovação. O empreendedorismo em escala global. Modelagem de Negócios Estudo de viabilidade do negócio e estudo de mercado. Preparação e elaboração do Plano de Negócios. Planos de marketing e gestão de vendas e Estudo de Viabilidade Econômica."
+  },
+  "PROJETO INTEGRADOR EXTENSIONISTA IV": {
+    "code": "JEP050A",
+    "ementa": "Metodologia da pesquisa-ação aplicada a Engenharia de Produção. Identificação, diagnóstico e proposta de soluções para problemas relacionados à Engenharia de Produção, nas áreas de Gestão de Operações, Engenharia da Qualidade e Pesquisa Operacional."
+  },
+  "INSTALAÇÕES ELÉTRICAS": {
+    "code": "JAG004A",
+    "ementa": "Geração em corrente alternada. Sistemas monofásico, bifásico e trifásico. Estudo de projeto elétrico.  Dimensionamento.   Divisão de Circuitos; Acionamentos. Prevenção de acidentes elétricos. Instalações elétricas prediais. Instalações para força motriz. Proteção contra descargas atmosféricas."
+  },
+  "PROJETO DE INSTALAÇÕES INDUSTRIAIS": {
+    "code": "JEP012A",
+    "ementa": "Arranjo físico de máquinas, equipamentos e facilidades. Movimentação de materiais e fluxo de produção, análise do fluxo de produção. Projeto de Fábrica e de Instalações Industriais."
+  },
+  "SIMULAÇÃO": {
+    "code": "JEP016A",
+    "ementa": "Modelagem e simulação de sistemas. Modelo de referência para Simulação. Simulação de Eventos Discretos. Tratamento de dados para simulação. Análise dos dados para simulação. Análise dos resultados da simulação. Usando o FlexSim em simulação. Ferramentas básicas do FlexSim. Ferramentas intermediarias do FlexSim. Novas tendências em simulação."
+  },
+  "LOGÍSTICA": {
+    "code": "JEP021A",
+    "ementa": "Conceitos sobre logística. A importância da logística na economia. Infraestrutura logística. Administração da cadeia de suprimentos (Supply Chain).? Alianças e parcerias. A cadeia produtiva: sistema de manufatura, fluxo logístico e estrutura organizacional. Mapeamento de processos. Modelos de decisão para a cadeia logística. Logística interna e externa (Roteirização). Logística de Suprimentos. Logística Global. Modalidades especiais de logística: reversa, humanitária, de resíduos, entre outras. Modelos de localização de instalações: dinâmicos e estáticos. Modelo de decisão para escolha de equipamentos de movimentação de materiais. Modelo para escolha de transporte. Modelo de localização de estoque.? Integração de sistemas de informação. Técnicas de distribuição: uma origem, um destino; uma origem, múltiplos destinos; uma origem, múltiplos destinos, com consolidação; múltiplas origens, múltiplos destinos."
+  },
+  "PROJETO INTEGRADOR EXTENSIONISTA V": {
+    "code": "JEP051A",
+    "ementa": "Metodologia da pesquisa-ação aplicada a Engenharia de Produção. Identificação, diagnóstico e proposta de soluções para problemas relacionados à Engenharia de Produção, nas áreas de Gestão de Operações, Engenharia do Produto, Engenharia do Trabalho e Engenharia Econômica."
+  },
+  "ENGENHARIA ECONÔMICA": {
+    "code": "JEP017A",
+    "ementa": "Juros; fatores de equivalência; amortização de dívidas; depreciação; avaliação de investimentos; substituição de equipamentos; análise de custo-volume-lucro; apuração de lucro; análise de riscos."
+  },
+  "TRABALHO DE CONCLUSÃO DE CURSO I": {
+    "code": "JEP043A",
+    "ementa": ""
+  },
+  "INTRODUÇÃO À LÓGICA": {
+    "code": "JLC028",
+    "ementa": "Introdução à lógica. Proposições e conectivos. Operações lógicas. Tabela verdade. Relação de implicação e equivalência. Métodos dedutivos. Álgebra booleana. Cálculo Proposicional e de Predicados."
+  },
+  "ALGORITMOS E ESTRUTURAS DE DADOS II": {
+    "code": "JLC004",
+    "ementa": "Recursividade. Estrutura de dados heterogêneas. Tipos abstratos de dados: listas, filas, pilhas. Alocação dinâmica de memória. Técnicas de ordenação. Técnicas de busca."
+  },
+  "CIRCUITOS DIGITAIS": {
+    "code": "JLC029",
+    "ementa": "Elementos de eletrônica digital. Representação, manipulação e projeto de circuitos combinacionais e sequenciais."
+  },
+  "FILOSOFIA E TECNOLOGIA": {
+    "code": "AES008",
+    "ementa": "Perspectivas teóricas e análise de questões filosóficas (ontológicas e epistemológicas), relacionadas às definições de tecnologia, associadas a vigilância digital. Estudos de implicações individuais e coletivas numa sociedade da vigilância total e a invasão de privacidade na época do direito digital. O viver na era digital e os limites da tecnologia."
+  },
+  "ALGORITMOS E ESTRUTURAS DE DADOS III": {
+    "code": "JLC007",
+    "ementa": "Conceitos de análise de algoritmos. Complexidade de algoritmos. Árvores. Tabelas hash. Introdução à teoria dos grafos."
+  },
+  "ARQUITETURA DE COMPUTADORES": {
+    "code": "JLC030",
+    "ementa": "Estruturas de interconexão. Organização de memória. Conjunto de instruções. Unidade central de processamento. Unidade de controle. Pipeline. Princípios CISC e RISC."
+  },
+  "ÉTICA, DIREITOS HUMANOS E CIDADANIA": {
+    "code": "AES013",
+    "ementa": "Perspectivas teóricas e análise de questões sociais relacionadas às definições de ética, cidadania e direitos humanos. Estudos de implicações individuais (civis e políticas), sociais e culturais (econômicas, de igualdade e de democracia), coletivos (de fraternidade, de solidariedade, e de pluralidade como educação indígena, do campo e quilombola)."
+  },
+  "BANCO DE DADOS": {
+    "code": "JLC033",
+    "ementa": "Sistemas de Gerenciamento de Banco de Dados. Modelagem de Dados: Modelo Conceitual, Modelo Lógico e Modelo Físico. Modelo Entidade-Relacionamento (E-R). Transição do Modelo E-R para o Modelo Relacional. Normalização de Dados. Linguagem de Consulta Estruturada (SQL): Sublinguagem de Definição de Dados (DDL) e Sublinguagem de Manipulação de Dados (DML)."
+  },
+  "INTERAÇÃO HUMANO-COMPUTADOR": {
+    "code": "AES015",
+    "ementa": "Introdução aos conceitos fundamentais da interação entre o usuário e o computador. Definição de usabilidade. Gerações de interfaces e de dispositivos de interação. A evolução dos tipos de interfaces para interação usuário-computador. Aspectos humanos. Aspectos cognitivos. Aspectos tecnológicos. Métodos e técnicas de design. Ciclo de vida da engenharia de usabilidade. Inspeção de usabilidade. Teste de usabilidade. Ferramentas de apoio. Padrões para interfaces. Interação do usuário com sistemas multimídia e hipertexto. Desenvolvimento prático em avaliação e construção de interfaces. Fundamentos em"
+  },
+  "ENGENHARIA DE REQUISITOS": {
+    "code": "AES016",
+    "ementa": "Engenharia de Requisitos: Conceitos e Técnicas de Levantamento de Requisitos. Casos de Uso: Conceitos e Descrição. Linguagem de Modelagem Unificada (UML): Diagrama de Casos de Uso. Estudos de caso envolvendo a especificação de requisitos. Coleta de requisitos em processos do tipo agile data science / agile machine learning."
+  },
+  "INTELIGÊNCIA ARTIFICIAL E COMPUTACIONAL": {
+    "code": "AES017",
+    "ementa": "Fundamentos de Inteligência Artificial e Computacional. Principais abordagens. Representação do Conhecimento. Aplicações."
+  },
+  "PROGRAMAÇÃO ORIENTADA A OBJETOS": {
+    "code": "JLC010",
+    "ementa": "Conceitos Fundamentais da Análise e Programação Orientada a Objetos. Abstração. Objetos e Classes. Atributos e Métodos. Encapsulamento e ocultação de informação (information hiding). Herança. Subclasse e Superclasse. Sobrecarga e Sobrescrita de Métodos. Polimorfismo. Variáveis polimórficas. Classes Abstratas e Interfaces. Tratamento de Exceções. Coleções (Collections). Criação de uma aplicação utilizando uma Linguagem de Programação Orientada a Objetos."
+  },
+  "ANÁLISE E PROJETO DE SOFTWARE": {
+    "code": "AES023",
+    "ementa": "Modelagem e Análise de Sistemas de Software: Conceitos. Projeto de Software: Objetivos, Conceitos e Artefatos. Orientação a Objetos e Análise Orientada a Objetos. Linguagem de Modelagem Unificada (UML) e seus diagramas para as fases de Análise e Projeto de Software. Prática sobre Análise de Sistemas: estudos de caso e especificação de diagramas. Interação entre Projeto e Implementação de Software. Mapeamento Objeto-relacional. Métodos Ágeis de Desenvolvimento de Software. Pipeline de dados."
+  },
+  "DESENVOLVIMENTO DE APLICAÇÕES WEB": {
+    "code": "AES027",
+    "ementa": "Conceitos básicos sobre aplicações cliente/servidor; HTML (Hypertext Markup Language); JavaScript; CSS (Cascading Style Sheet); Linguagem de programação para Web; Introdução à Programação Reativa; Desenvolvimento e implantação de sistemas para internet com utilização de banco de dados."
+  },
+  "QUALIDADE DE SOFTWARE": {
+    "code": "JLC002",
+    "ementa": "Gestão de Qualidade de Software. Qualidade de Processo de Software: CMMI e MPS.BR. Processo de Verificação, Validação e Teste de Software (VV&T): Fundamentos do Processo de VV&T, Estratégias de Teste, Técnicas e Critérios de Teste, Técnicas de Inspeção. Processos de Manutenção de Software. Processo de Gestão de Configuração de Software. Documentação de Software. Padrões de Projeto de Software: Padrões de Criação, Estruturais e Comportamentais."
+  },
+  "GERENCIAMENTO DE PROJETOS DE SOFTWARE": {
+    "code": "AES032",
+    "ementa": "Conceitos de Projeto e de Gestão de Projetos. Características dos Projetos. Fases do Projeto. Estrutura e Organização dos Processos de Gerenciamento de Projetos. Métricas e estimativas para projetos de software. Gerência de custo. Gerência de tempo. Gerência de risco. Estudo sobre as diferentes abordagens sobre processos de Gerenciamento de Projeto."
+  },
+  "COMPUTADORES E SOCIEDADE": {
+    "code": "JLC003",
+    "ementa": "Ciência, Tecnologia e Sociedade. A Sociedade da Informação no Brasil e no Mundo. Tecnologias para Computação Social, Aplicações Sociais da Computação: Educação, Medicina, Governo Eletrônico, Meio Ambiente, etc. Software Proprietário x Software Livre. Segurança e privacidade. Propriedade intelectual. Acesso não-autorizado. Evolução Social e a Singularidade Tecnológica."
+  },
+  "PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS": {
+    "code": "JLC054",
+    "ementa": "Fundamentos da Computação Móvel. Programação de Aplicativos para Dispositivos Móveis. Projeto de Interfaces para Dispositivos Móveis. Acesso à Rede de Dados. Comunicação e Utilização de Recursos do Sistema Operacional. Armazenamento e Recuperação de Informações. Comunicação com a Internet. Multimídia: Áudio, Vídeo e Câmera. Sensores."
+  },
+  "TESTE DE SOFTWARE": {
+    "code": "AES038",
+    "ementa": "Planejamento de Verificação e Validação (VV). Documentação de estratégias de VV, testes e outros artefatos. Medidas e Métricas. Análise estática de código. Atividades de VV ao longo do ciclo de vida de um produto. Revisão de software. Testes de unidade. Análise de cobertura. Técnicas de teste funcional (caixa preta). Testes de integração. Desenvolvimento de casos de teste baseados em casos de uso e estórias de usuários. Teste automatizado. Testes de sistema. Testes de aceitação. Testes de atributos de qualidade. Testes de regressão. Ferramentas de teste (combinação com ferramentas de integração contínua). Análise de relatórios de falha. Técnicas para isolamento e falhas (depuração). Análise de"
+  },
+  "ANÁLISE DE SISTEMAS ORIENTADOS A OBJETOS": {
+    "code": "JLC066",
+    "ementa": "Análise e Modelagem de Sistemas. Conceitos de Orientação a Objetos. Linguagem de Modelagem Unificada (UML). Diagrama de Classes: Relacionamentos, Generalização, Agregação e Composição; Multiplicidade e Navegabilidade. Modelagem e Diagrama de Atividades. Comunicação entre Objetos: Diagrama de Sequência e Diagrama de Comunicação. Diagrama de Estados. O Processo Unificado (UP): workflow de Requisitos, workflow de Análise e workflow de Projetos."
+  },
+  "FORMAÇÃO PARA PROCESSOS SELETIVOS": {
+    "code": "AES047",
+    "ementa": "Modelos e simulações de vivências de processos seletivos, com destaque àqueles relacionados ao serviço público em Educação. Hábitos de estudo e de preparação para exames e testes seletivos. Seleção e sistematização de conteúdos para exames a partir da análise de editais públicos e anúncios de processos seletivos. Experimentação para provas escritas e didáticas."
+  },
+  "INGLÊS INSTRUMENTAL": {
+    "code": "JLC047",
+    "ementa": "Leitura e interpretação de textos da informática em Língua Inglesa. Técnicas de leitura: guessing, skimming, scanning, levantamento de palavras-chave, exploração oral prévia do assunto e dos temas."
+  },
+  "PADRÕES DE PROJETO DE SOFTWARE": {
+    "code": "JLC044",
+    "ementa": "Principais propriedades dos padrões de projetos. Componentes de um padrão de projeto. Requisitos de um bom padrão de projeto. O Padrão MVC. Padrões de Criação. Padrões de Estrutura. Padrões de Comportamento."
+  },
+  "AGROMETEOROLOGIA": {
+    "code": "JAG002A",
+    "ementa": "Considerações sobre Tempo e Clima; Elementos e Fatores do Clima; Radiação Solar e Terrestre; Balanço de Radiação; Temperatura do Ar e do Solo (inclusos Efeito Estufa e Mudanças Climáticas); Pressão do ar; pressão de saturação; umidade atual; umidade relativa; gráfico psicométrico; Geadas: Controle e Previsão; Formação de Nuvens e Precipitação (inclusos eventos El Niño e La Niña); Evaporação e Evapotranspiração; Balanços Hídricos: Classificação Climática; Zoneamento Agroclimático (Impacto das mudanças climáticas sobre sistemas agrícolas)."
+  },
+  "HIDRÁULICA": {
+    "code": "JAG003A",
+    "ementa": "Condutos forçados: Determinação das perdas de carga. Dimensionamento de condutos. Condutos equivalentes. Associação de condutos forçados. Sistemas de Recalque: Tipos de bombas; seleção; associação; manutenção. Condutos livres: fundamentos, movimento uniforme, movimento gradualmente variado, movimento bruscamente variado. Dissipação de energia. Hidrometria: medidores de vazão."
+  },
+  "TRATORES E MOTORES": {
+    "code": "JAG005A",
+    "ementa": "A importância dos tratores na mecanização agrícola. As funções executadas pelo trator agrícola, através da: tomada de potência mecânica, barra de tração, levante hidráulico e controle hidráulico remoto. Classificações dos tratores. Os componentes e comandos gerais do trator agrícola. Os tipos e formas de manutenção aplicadas aos tratores agrícolas. Os motores de combustão interna: definições, princípios de funcionamento, componentes móveis e fixos. Os sistemas auxiliares aos motores de combustão interna. O sistema de transmissão mecânica (engrenagens, relação de transmissão de velocidade, relações de torque e transmissão de potência). Os tipos de transmissão motora para a tração tratora. Rodados. Equilíbrio operacional (patinagem e relação de avanço). Lastragem. Equilíbrio estático e dinâmico em tratores agrícolas. Análise de desempenho dos tratores."
+  },
+  "GEOPROCESSAMENTO": {
+    "code": "JAG008A",
+    "ementa": "Conceitos básicos de cartografia e sistemas de informações geográficas; Arquitetura de SIG; Caracterização de dados geográficos; Principais classes de dados geográficos; Aquisição e Manipulação de Dados Vetoriais; Sensoriamento Remoto. Aquisição e Manipulação de Dados Matriciais; Armazenamento de dados geográficos; Processamentos de transações e consultas; Confecção de Mapas."
+  },
+  "TECNOLOGIA DOS MATERIAIS DE CONSTRUÇÃO": {
+    "code": "JAG009A",
+    "ementa": "Aglomerantes: cimento Portland, cal e gesso. Agregados para uso em concreto: Agregados miúdos e Agregados graúdos: Definições, Finalidades, Classificação, Obtenção, Ensaios. Propriedades do concreto no estado fresco: Trabalhabilidade, Exsudação, Segregação, Etapas realizadas com o concreto no estado fresco (Mistura, Transporte, Lançamento, Adensamento, Acabamento, Cura). Propriedades do concreto no estado endurecido: Resistência   (compressão, tração, cisalhamento, abrasão), Deformações. Durabilidade do concreto: Causas Físicas e Químicas. Dosagem de concreto: Métodos de dosagem. Argamassas: Tipos de argamassas, materiais e dosagem. Metais: Processos e equipamentos de obtenção dos principais produtos siderúrgicos: Aço e ferro fundido. Aços para concreto armado Classificação, designação e normas técnicas."
+  },
+  "HIDROLOGIA": {
+    "code": "JAG011A",
+    "ementa": "Estudo do ciclo hidrológico. Bacias hidrográficas. Caracterização morfométrica e suas relações com a hidrologia. Noções sobre manejo de bacias. Estudo da precipitação. Obtenção de dados e escoamento superficial. Produção de água, valores médios, mínimos e máximos de vazão. Distribuição de probabilidade."
+  },
+  "MÁQUINAS E IMPLEMENTOS": {
+    "code": "JAG013A",
+    "ementa": "A mecanização agrícola: planejamento, gestão, manutenção e reparos. Otimização de Sistemas Agrícolas. A tração desenvolvida pelos tratores. A adequação entre o trator e implemento. Dimensionamento e planejamento de sistemas mecanizados. Sistemas mecanizados para o plantio direto. Sistemas mecanizados para a pulverização. Sistemas mecanizados para o preparo de solo. Sistemas mecanizados para a adubação e correção do solo. Sistemas mecanizados para a colheita de grãos. Sistemas mecanizados para a colheita de cana-de-açúcar. Sistemas mecanizados para a colheita de café. Sistemas mecanizados para a colheita florestal. Princípios do levantamento de custos operacionais na mecanização."
+  },
+  "PROJETOS DE SILOS E ARMAZÉNS": {
+    "code": "JAG014A",
+    "ementa": "Rede armazenadora. Classificação: armazéns e silos. Equipamentos para manuseio, transporte e beneficiamento de grãos. Controle de pó. Automação. Projeto de armazém convencional. Dimensionamento de transportadores de grãos. Dimensionamento de moegas. Dimensionamento de silos. Elaboração de projetos de Unidades Armazenadoras. Estudo de Viabilidade Técnica e Econômica de Projetos de Unidades Armazenadoras. Projetos de Fabricas de Ração e outras indústrias beneficiadoras."
+  },
+  "RESISTÊNCIA DOS MATERIAIS": {
+    "code": "JAG015A",
+    "ementa": "Esforc?os simples. Cargas Axiais e Tenso?es. Lei de Hooke. Deformac?o?es em barras axialmente carregadas. Lei de Hooke generalizada. Estados Planos de Tensa?o. Vi?nculos Estruturais. Ana?lise e diagramas de esforc?os em estruturas isosta?ticas. Baricentros, Momentos e Produtos de Ine?rcia de Superfi?cies Planas e Raio de Girac?a?o. Flexa?o Pura em Vigas. Torc?a?o e Tenso?es de Cisalhamento. Flambagem. Estruturas Hiperesta?ticas."
+  },
+  "TÓPICOS DE FUNDAÇÕES": {
+    "code": "JAG017A",
+    "ementa": "Tipos de fundações. Capacidade de carga na ruptura e estimativa de recalques de fundações superficiais e profundas. Pressões e cargas admissíveis. Dimensionamento e cálculo estrutural dos elementos de fundações. Muros de Arrimo. Sondagens. Fundações Diretas e Fundações Profundas. Rebaixamento do Lençol Freático."
+  },
+  "AGRICULTURA DE PRECISÃO": {
+    "code": "JAG018A",
+    "ementa": "Conceitos básicos. Amostragem em grade regular e aleatória. Sistemas de posicionamento por satélite. Sistemas de Informação Geográficas. Monitoramento e Mapeamento de colheita. Mapas de fertilidade do solo. Sensores. Métodos de interpolação. Aplicação de insumos com Taxa Variada. Softwares."
+  },
+  "FUNDAMENTOS DE IRRIGAÇÃO E DRENAGEM": {
+    "code": "JAG019A",
+    "ementa": "Armazenamento de água no solo, umidade do solo, infiltração de água no solo, disponibilidade de água no solo para as plantas. Relação solo-água-planta-atmosfera, demanda hídrica da cultura, transpiração e evapotranspiração. Manejo de irrigação, determinação da lâmina de irrigação baseado no solo e no clima, turno de rega e balanço hídrico. Características de funcionamento dos métodos e sistemas de irrigação, eficiência e uniformidade dos sistemas de irrigação. Planejamento das operações dos sistemas de irrigação. Princípios básicos de drenagem."
+  },
+  "ARMAZENAMENTO DE PRODUTOS AGRÍCOLAS": {
+    "code": "JAG022A",
+    "ementa": "Propriedades físicas dos grãos. Maturação e Colheita dos grãos. Estrutura e composição química. Propriedades termofísicas. Água nos grãos. Amostragem. Psicrometria e higrometria. Umidade de equilíbrio. Respiração e deterioração dos grãos. Armazenamento convencional e a granel. Pragas de grãos armazenados. Roedores e seu controle. Beneficiamento de grãos. Otimização de sistemas agrícolas."
+  },
+  "ENERGIA NA AGRICULTURA": {
+    "code": "JAG023A",
+    "ementa": "Panorama energético mundial e brasileiro. Biocombustíveis. A biomassa na geração de energia. Energia solar. Energia eólica. Energia hidráulica. Eficiência energética."
+  },
+  "ELEMENTOS DE MÁQUINAS": {
+    "code": "JAG024A",
+    "ementa": ""
+  },
+  "TOPOGRAFIA I (PLANIMETRIA)": {
+    "code": "JAG025A",
+    "ementa": "Introdução à Topografia. Escalas. Normas técnicas relacionadas à Topografia. Medidas de distâncias. Medidas de Ângulos Horizontais. Orientação. Levantamento Topográfico Planimétrico. Cálculo de áreas. Memorial descritivo. Desenho topográfico."
+  },
+  "TOPOGRAFIA II (ALTIMETRIA)": {
+    "code": "JAG026A",
+    "ementa": "Posicionamento altimétrico. Métodos de nivelamento. Representação do relevo. Locação. Levantamento Topográfico Planimétrico. Corte e Aterro. Sistemas de Navegação Global por Satélite (GNSS). Georreferenciamento de imóveis."
+  },
+  "AGRICULTURA GERAL": {
+    "code": "JAG028A",
+    "ementa": "Aspectos sociais e econômicos da agricultura no Brasil e no mundo. Sistemas de produção das principais culturas. Fatores influenciadores da produtividade agrícola: intrínsecos (espécie, variedade, cultivar) e extrínsecos (bióticos, abióticos, edáficos). Agricultura de subsistência e agricultura industrial. Agroecologia. Sistema de produção agropecuário."
+  },
+  "ESTRUTURAS DE CONCRETO ARMADO": {
+    "code": "JAG029A",
+    "ementa": "Princípios básicos do concreto armado: Normas, Propriedades do concreto e Ac?o. Lajes: introdução, tipos, dimensionamento. Vigas: introdução, tipo, dimensionamento. Pilares: introdução, tipos, dimensionamento. Tópicos de Fundações: introdução, tipos e dimensionamento."
+  },
+  "PROJETOS DE IRRIGAÇÃO E DRENAGEM": {
+    "code": "JAG030A",
+    "ementa": "Equipamentos e acessórios de irrigação localizada e irrigação por aspersão. Hidráulica de linhas pressurizadas para irrigação. Dimensionamento de sistema de bombeamento, sistema de recalque, sistema de adução, sistema de distribuição e sistemas de aplicação de água via irrigação por aspersão e irrigação localizada. Manejo e operação de sistemas de irrigação por aspersão e irrigação localizada. Análise de curva de motobomba e eficiência de motobomba. Análise de tubulação para irrigação, cálculo de PN e DN. Análise de acessórios para irrigação. Sistemas de irrigação por superfície. Sistemas de drenagem. Planejamento de projeto de irrigação."
+  },
+  "PROJETOS DE SISTEMAS DE SECAGEM E AERAÇÃO": {
+    "code": "JAG031A",
+    "ementa": "Princípios básicos de psicrometria.  Movimento de ar. Aeração. Teoria de Secagem, Classificação dos Sistemas de Secagem e Secadores de Grãos e Sementes, Modelos de Simulação de Secagem, Dimensionamento de Secadores, Combustão e Combustíveis, Dimensionamento de Fornalhas, Custos de secagem."
+  },
+  "SENSORIAMENTO REMOTO": {
+    "code": "JAG034A",
+    "ementa": "Introdução ao Sensoriamento Remoto; Princípios Físicos de Sensoriamento remoto; Aerofotogrametria; Fotogrametria; Estereoscopia; Fotointerpretação; Principais atributos e características dos Sensores Remotos; Principais Sensores Orbitais e seus produtos; Índices espectrais de vegetação; Monitoramento agrícola via sensoriamento remoto."
+  },
+  "PROJETOS DE MÁQUINAS": {
+    "code": "JAG035A",
+    "ementa": "Conceitos de projetos de uma máquina agrícola. Elementos flexíveis de transmissão de potência. Elementos de transmissão de potência por contato. Mancais de rolamentos. Transmissão óleo hidráulica."
+  },
+  "EXTENSÃO RURAL": {
+    "code": "JAG037A",
+    "ementa": "Extensão rural: introdução, conceitos e fundamentos. Origens e histórico da extensão rural no Brasil. Principais modelos orientadores da extensão rural no Brasil. Caracterização dos produtores rurais e da estrutura agrícola do Brasil. Métodos de aprendizagem e treinamento. Organizações rurais. Extensão universitária. Enfoques contemporâneos em extensão rural. As novas formas de ocupação na agricultura: pluriatividade e multifuncionalidade. Agroecologia e desenvolvimento rural sustentável. Nova Política Nacional de Assistência Técnica e Extensão Rural (PNATER). O papel da Extensão Rural no desenvolvimento da agricultura, desafios e perspectivas."
+  },
+  "CONTROLE E AUTOMAÇÃO AGRÍCOLA": {
+    "code": "JAG038A",
+    "ementa": "Introdução à automação. Relés e atuadores. Dados analógicos e digitais. Transdutores e sensores. Medição de pressão, nível, temperatura e vazão. Microcontroladores. Controlador Lógico Programável (CLP). Entradas e saídas de um controlador. Conceito de malha."
+  },
+  "FUNDAMENTOS DE FERTILIDADE DO SOLO": {
+    "code": "JAG039A",
+    "ementa": "Conceitos em fertilidade do solo. Propriedades químicas do solo. Acidez do solo. Matéria orgânica do solo. Nutrientes e elementos tóxicos no solo: dinâmica no solo e na planta. Amostragem de solo. Interpretação de análise do solo e Recomendação de Adubação e Calagem."
+  },
+  "SANEAMENTO RURAL": {
+    "code": "JAG040A",
+    "ementa": "Impacto da poluição hídrica. Características físico-quimicas e biológicas de água e efluentes, padrões de emissão e de qualidade de água. Uso da água, classificação dos tipos de água. Tratamento físico-químico de água para abastecimento e água residuárias agroindustriais. Tratamento biológico: aeróbio e anaeróbio de águas residuárias agroindustriais. Tratamentos alternativos de água e efluentes para o meio rurais. Gerenciamento de resíduos biossolidos do meio rural e agroindustrial."
+  },
+  "CULTIVO PROTEGIDO": {
+    "code": "JAG042A",
+    "ementa": ""
+  },
+  "AVALIAÇÃO ECONÔMICA DE PROJETOS": {
+    "code": "JAG046A",
+    "ementa": "Matemática Financeira. Juros simples e Juros Compostos. Séries de Pagamentos. Métodos de Avaliação. Econômica de Projetos: Valor Presente Líquido – VPL; Taxa Interna de Retrono – TIR; Valor Anual Uniformemente Equivalente – VAUE; Razão Benefício Custo; Tempo de Retorno."
+  },
+  "TECNOLOGIA DE PÓS-COLHEITA": {
+    "code": "JAG055A",
+    "ementa": "Noções de bioquímica relacionadas à tecnologia pós-colheita. Fatores de pré e pós-colheita. Índices de maturação. Respiração dos produtos. Relações térmicas e hídricas. Manutenção da qualidade. Operações do beneficiamento. Tecnologia de conservação. Aspectos da produção e da colheita que interferem na qualidade final. Características das operações de pós-colheita. Operações de processamento mínimo de frutas e hortaliças. Fatores de qualidade para produtos minimamente processados. Sanitização e desinfecção. Atmosfera modificada e embalagem."
+  },
+  "GEORREFERENCIAMENTO DE IMÓVEIS RURAIS": {
+    "code": "JAG059A",
+    "ementa": "Normatização, Credenciamento, Legislação Vigente, Documentação, Planejamento, Demarcação, Medição, Tipos de Vértices, Tipos de Limites, Métodos de Posicionamento, Cálculos, Certificação."
+  },
+  "ESTRUTURAS DE AÇO E MADEIRA": {
+    "code": "JAG065A",
+    "ementa": "Características dos materiais sob o ponto de vista do engenheiro agrícola. Dimensionamento de peças de aço e madeira submetidos a esforços de tração, compressão axial, flexão e cisalhamento. Ligações. Tipos de Madeira"
+  },
+  "BIOQUÍMICA I": {
+    "code": "JAL001A",
+    "ementa": "Introdução à Bioquímica e seus fundamentos. As biomoléculas e suas propriedades. Aspectos bioquímicos da origem da vida. Propriedades da água. Conceito de pH e soluções tampão. Proteínas e suas unidades constituintes, os aminoácidos; os açúcares; os lipídios, os ácidos nucleicos e nucleotídeos. Enzimas, suas propriedades e seu papel no funcionamento dos organismos."
+  },
+  "ANÁLISE DE ALIMENTOS": {
+    "code": "JAL002A",
+    "ementa": "Amostragem e preparo de amostras em análise de alimentos. Princípios, métodos e técnicas das análises físico-químicas utilizadas para determinar a composição e características básicas dos alimentos: umidade, conteúdo mineral, proteínas, lipídeos, fibras, carboidratos e vitaminas. Acidez titulável e pH. Métodos físicos: refratometria, densimetria, polarimetria."
+  },
+  "TERMODINÂMICA I": {
+    "code": "JAL003A",
+    "ementa": "Introdução e definições termodinâmicas. Formas de energia, transferência de energia por calor e trabalho e primeira lei da termodinâmica. Diagramas e tabelas de propriedades de substâncias puras, processos de mudança de fase. Equações de estado, gás ideal e substâncias reais. Análise de energia de sistemas fechados. Análises de massa e energia em volumes de controle. Segunda lei da termodinâmica, máquinas térmicas e ciclo de Carnot. Entropia, reversibilidade, equilíbrio e estabilidade. Terceira lei da termodinâmica. Relações de propriedades termodinâmicas."
+  },
+  "QUÍMICA ORGÂNICA": {
+    "code": "JAL004A",
+    "ementa": "Introdução à Química orgânica. O átomo de Carbono. Principais funções orgânicas. Nomenclatura, propriedades físico-químicas, estudo da estrutura, mecanismos e reatividades: hidrocarbonetos alifáticos, aromáticos, compostos oxigenados, nitrogenados, halogenados. Estereoquímica."
+  },
+  "QUÍMICA ANALÍTICA": {
+    "code": "JAL005A",
+    "ementa": "Introdução à química analítica quantitativa e qualitativa. Erros em química analítica. Tratamento estatísticos de dados. Amostragem e preparação de amostras. Métodos gravimétricos e volumétricos de análises."
+  },
+  "FÍSICO-QUÍMICA": {
+    "code": "JAL006A",
+    "ementa": "Estado gasoso: propriedades PVT de gás ideal e gases reais; equação de Van der Waals; princípio dos estados correspondentes. Condições de equilíbrio e regra de fases: sistemas de um e de mais de um componente. Propriedades de líquidos e sólidos: tensão superficial, viscosidade. Misturas, propriedades coligativas e atividade. Mudança de fases: Noções básicas de potencial química, equilíbrio entre fases e diagrama de equilíbrio. Físico-Química de Coloides e Superfícies: noções básicas sobre o sistema coloidal e isotermas de absorção. Termodinâmica. Propriedades coligativas. Equilíbrio entre fases."
+  },
+  "QUÍMICA DE ALIMENTOS": {
+    "code": "JAL007A",
+    "ementa": "Estudo da água, (estrutura; atividade de água; isotermas de sorção e dessorção; transição vítrea; a relação entre a atividade de água e estabilidade de alimentos); carboidratos (monossacarídeos, oligossacarídeos e polissacarídeos);  lipídeos (estruturas, propriedades físicas e químicas; rancificação (hidrólise e oxidação); emulsões e espumas); aminoácidos, peptídeos e proteínas (propriedades dos aminoácidos; estrutura e propriedades das proteínas; desnaturação proteica; sistemas coloidais); vitaminas hidrossolúveis e lipossolúveis (estruturas, propriedades e alterações durante o processamento e estocagem de alimentos); pigmentos naturais (estruturas, propriedades e transformações de carotenoides, clorofilas, mioglobina, antocianinas, betalaínas, carmim de cochonilha, curcuminas, propriedades químicas dos corantes artificiais)."
+  },
+  "MICROBIOLOGIA GERAL": {
+    "code": "JAL008A",
+    "ementa": "Introdução à microbiologia: características básicas dos principais grupos de microrganismos. Bactérias. Fungos. Nutrição e cultivo de microrganismos. Culturas contínuas. Metabolismo microbiano. Reprodução dos microrganismos. Crescimento das populações microbianas: curvas de crescimento e medidas. Contagem direta e indireta."
+  },
+  "TERMODINÂMICA II": {
+    "code": "JAL009A",
+    "ementa": "Descrição termodinâmica de soluções. Mistura de gases. Comportamento PVT de mistura de gases. Propriedades de mistura. Propriedades parciais molares. Fator de compressibilidade de misturas. Fugacidade. Constante de equilíbrio. Equilíbrio de fases de sistemas multicomponentes (equilíbrio líquido- vapor). Solubilidade de gases em líquidos."
+  },
+  "MICROBIOLOGIA DE ALIMENTOS": {
+    "code": "JAL010A",
+    "ementa": "Técnicas aplicadas à análise microbiológica de alimentos. Meios de cultura, identificação e contagem de microrganismos. Microrganismos de interesse na indústria de alimentos: bactérias, fungos filamentosos e leveduras. Micotoxinas. Microrganismos associados a deterioração de alimentos refrigerados. Bactérias patogênicas em alimentos. Culturas puras."
+  },
+  "OPERAÇÕES UNITÁRIAS I": {
+    "code": "JAL011A",
+    "ementa": "Introdução às operações unitárias. Dimensionamento de tubulações e acessórios, equipamentos para transporte de fluidos. Sistemas de agitação e mistura. Dimensionamento de equipamentos para redução de tamanho, separação mecânica, escoamento em meios porosos e fluidização, e transporte de sólidos particulados."
+  },
+  "TRANSFERÊNCIA DE CALOR E DE MASSA": {
+    "code": "JAL012A",
+    "ementa": "Introdução e definições: condução, convecção e radiação. Fundamentos de condução. Condução de calor permanente: paredes planas, cilindros e esferas. Condução de calor transiente: sistemas concentrados e efeitos espaciais. Fundamentos de convecção. Convecção forçada externa e convecção forçada interna em diferentes geometrias. Análise de energia para trocadores de calor. Fundamentos de radiação. Transferência de massa: difusão e convecção permanente e transiente."
+  },
+  "REFRIGERAÇÃO": {
+    "code": "JAL013A",
+    "ementa": "O papel do frio na conservação de alimentos. Estocagem, transporte e comercialização frigorificadas. Refrigerantes. Ciclos teórico e real de refrigeração por compressão. Sistemas de múltiplos estágios. Sistemas de refrigeração por absorção. Componentes do sistema e características de desempenho. Isolamento e câmaras frigoríficas. Carga térmica. Conservação e recuperação de energia. Segurança em sistemas de refrigeração."
+  },
+  "OPERAÇÕES UNITÁRIAS II": {
+    "code": "JAL014A",
+    "ementa": "Princípios da transferência de calor aplicado ao processamento de alimentos. Propriedades térmicas dos alimentos. Tratamentos térmicos na indústria de alimentos. Trocadores de calor com e sem mudança de fase. Ebulição e condensação. Evaporação. Secagem."
+  },
+  "SISTEMAS DE QUALIDADE": {
+    "code": "JAL016A",
+    "ementa": "Definição de qualidade. Organização do controle de qualidade nas indústrias de alimentos. Normas e padrões de identidade e qualidade. Gestão de qualidade total. Controle Estatístico de Qualidade. Ferramentas da Qualidade. Garantia e certificação de qualidade. Boas Práticas de Fabricação (BPF), Procedimento Operacional Padrão (POP), Análise de Perigos e Pontos Críticos de Controle (APPCC). Legislação."
+  },
+  "PROCESSOS FERMENTATIVOS E ENZIMÁTICOS": {
+    "code": "JAL017A",
+    "ementa": "Conceitos básicos sobre processos fermentativos e processos enzimáticos utilizados na produção de alimentos e bebidas. Fermentação Alcóolica. Fermentação Acética. Fermentação Lática. Fermentação em Estado Sólido e Semi-Sólido. Processos de produção de bebidas fermentadas. Processos de produção de alimentos por fermentação. Resíduos de fermentação. Biorreatores."
+  },
+  "TECNOLOGIA DE CEREAIS": {
+    "code": "JAL018A",
+    "ementa": "Noções básicas sobre os principais cereais. Composição química. Pré-processamento: limpeza, seleção, secagem e armazenamento de cereais. Principais processos de industrialização e avaliação da qualidade tecnológica de grãos de cereais. Moagem e Tipos de farinhas. Amidos: fontes, características físicas e químicas, métodos de obtenção, modificações químicas e aplicações industriais. Produtos de panificação e massas alimentícias: processos de produção e equipamentos, embalagem e conservação."
+  },
+  "TRATAMENTO DE EFLUENTES INDUSTRIAIS": {
+    "code": "JAL019A",
+    "ementa": "Fundamentos de qualidade das águas. Tópicos em ciências do ambiente. Caracterização física, química e biológica dos efluentes industriais. Níveis e sistemas de tratamento de efluentes industriais. Tratamento preliminar. Tratamento primário (gradeamento, caixas de areia, decantadores primário). Tratamento secundário (lodos ativados e lagoas de estabilização). Tratamento terciário. Resíduos sólidos."
+  },
+  "OPERAÇÕES UNITÁRIAS III": {
+    "code": "JAL020A",
+    "ementa": "Fundamentos da transferência de massa. Principais operações e equipamentos de transferência de massa. Extração líquido-líquido. Extração sólido-líquido. Destilação. Cálculo do número de estágios teóricos. Adsorção. Absorção e esgotamento. Cristalização."
+  },
+  "PROJETOS INDUSTRIAIS": {
+    "code": "JAL021A",
+    "ementa": "Estudos teóricos e elaboração de um projeto de uma indústria de alimentos. Fundamentos de Projetos Industriais: finalidade, importância, etapas, documentos. Estudo de viabilidade técnica de projetos de processos industriais. Estudo de mercados. Estratégias de localização. Especificação de processos, insumos industriais, equipamentos, instalações e edificações. Arranjo físico e fluxograma dos processos. Investimentos e custos de produção. Estudo de viabilidade econômica."
+  },
+  "TECNOLOGIA DE FRUTAS E HORTALIÇAS": {
+    "code": "JAL022A",
+    "ementa": "Principais matérias-primas. Perdas pós-colheita. Atividade respiratória e transpiração. Maturação e padrões de qualidade. Operações tecnológicas básicas no processamento de frutas e hortaliças. Frutas e hortaliças envasadas. Frutas e hortaliças desidratadas. Frutas e hortaliças fermentadas. Polpas, sucos e néctares. Produtos vegetais minimamente processados. Tecnologia da produção de geleias. Aproveitamento de subprodutos."
+  },
+  "ANÁLISE SENSORIAL": {
+    "code": "JAL024",
+    "ementa": "Princípios de fisiologia sensorial. Introdução à psicofísica. Montagem e organização de laboratório de análise sensorial. Amostragem e apresentação das amostras. Métodos de análise sensorial e suas aplicações: métodos discriminativos, métodos descritivos e métodos afetivos. Analise Estatística dos dados. Correlação linear entre medidas instrumentais e sensoriais. Procedimento para seleção e treinamento de equipe de avaliadores. Estudos de caso."
+  },
+  "MODELAGEM DE PROCESSOS NA INDÚSTRIA DE ALIMENTOS": {
+    "code": "JAL025A",
+    "ementa": "Introdução à modelagem de processos. Introdução a modelos fenomenológicos e modelos empíricos. Introdução à otimização de processos. Técnicas de simulação de processos. Introdução a pacotes computacionais de simulação de processos. Introdução às Redes Neurais."
+  },
+  "EMBALAGEM DE ALIMENTOS": {
+    "code": "JAL026A",
+    "ementa": "Introdução. Embalagens metálicas, de vidro, plásticas, convertidas e celulósicas. Filmes e coberturas comestíveis. Estabilidade de produtos embalados. Equipamentos de embalagem. Legislação pertinente. Planejamento e projeto de embalagens."
+  },
+  "TECNOLOGIA DE PRODUTOS CÁRNEOS": {
+    "code": "JAL028A",
+    "ementa": "Conceitos de produtos cárneos. Estrutura e composição da carne. Etapas envolvidas no abate. Transformação do Músculo em Carne. Aspectos higiênico-sanitários da carne. Processamento tecnológico da carne e seus subprodutos."
+  },
+  "TECNOLOGIA DE LEITE E DERIVADOS": {
+    "code": "JAL029A",
+    "ementa": "Introdução: composição do leite, legislação, indicadores e análise global de mercado. Produção primária do leite: diferentes animais e raças, lactação, ordenha e colostro. Química e microbiologia do leite: conservação, higiene e controle de qualidade. Coleta, transporte e entrega do leite na indústria. Componentes: trocadores de calor, centrífugas, homogeneizadores, tanques, bombas, evaporadores e membranas. Produtos lácteos pasteurizados e esterilizados. Culturas iniciadoras. Processamento tecnológico de produtos lácteos fermentados, condensados, graxos, aerados e em pó. Fundamentos tecnológicos de aditivos, ingredientes e coadjuvantes para produtos lácteos."
+  },
+  "DESENVOLVIMENTO DE NOVOS PRODUTOS ALIMENTÍCIOS": {
+    "code": "JAL032A",
+    "ementa": "Definição, caracterização e introdução de novos produtos no mercado. Definição do público-alvo e de mercado, seleção de matérias-primas, formulações, operações de processamento, embalagens, características de qualidade, aspectos legais relacionados ao produto em desenvolvimento."
+  },
+  "NUTRIÇÃO BÁSICA": {
+    "code": "JAL033A",
+    "ementa": "Estrutura e funcionamento dos sistemas anatômicos com foco na nutrição. Nutrição, prevenção e recuperação da saúde, associados aos mecanismos de absorção, digestão e utilização dos nutrientes pelo organismo. Análise das vias catabólicas de carboidratos, lipídeos e proteínas. Vitaminas e micronutrientes. Alimentos funcionais. Recomendações nutricionais. Determinação das necessidades energéticas. Biodisponibilidade de nutrientes. Planejamento de dietas em diferentes faixas etárias. Alimentação vegetariana e suas implicações nutricionais."
+  },
+  "TECNOLOGIA DA SOJA E DERIVADOS": {
+    "code": "JAL034A",
+    "ementa": "A soja como matéria-prima industrial. Composição Química e Constituintes Desejáveis e Indesejáveis da Soja. Aspectos atuais da soja e suas aplicações na alimentação humana. Propriedades Funcionais e Tecnológicas da Soja. Tecnologia do processamento de produtos de soja. Tecnologia de Produção de óleo de soja e margarinas. Alimentos obtidos da farinha de soja desengordurada. Produtos de soja tradicionais não fermentados. Produtos de soja tradicionais fermentados. Alimentos de segunda geração."
+  },
+  "BALANÇO DE MASSA": {
+    "code": "JAL042A",
+    "ementa": "Balanço global de massa para substâncias puras e misturas em regimes permanente e transiente. Balanço de massa por componente em misturas em regimes permanente e transiente. Aplicações em processos da Indústria de Alimentos."
+  },
+  "ANÁLISE INSTRUMENTAL DE ALIMENTOS": {
+    "code": "JAL043A",
+    "ementa": "Noções básicas dos métodos instrumentais de espectrofotometria na região do ultravioleta e do visível, espectroscopia de fluorescência e infravermelho, espectrometria atômica e métodos cromatográficos, aplicados a análise de alimentos."
+  },
+  "BIOQUÍMICA II": {
+    "code": "JAL044A",
+    "ementa": "Bioenergética e metabolismo. Oxidação dos carboidratos, dos lipídeos, dos aminoácidos e produção de uréia. Ciclo do Ácido Cítrico. Cadeia transportadora de elétrons. Biossíntese de carboidratos, de lipídeos, de aminoácidos e moléculas relacionadas. Integração do metabolismo de mamíferos."
+  },
+  "HIGIENE E SEGURANÇA DOS ALIMENTOS": {
+    "code": "JAL045A",
+    "ementa": "Higiene na indústria de alimentos. Procedimentos Padrão de Higiene Operacional (PPHO). Procedimentos gerais de limpeza e sanitização industrial. Qualidade da água. Controle de Infestantes. Conceitos gerais sobre segurança alimentar. Transmissão de doenças pelos alimentos. Fatores que contribuem para o aparecimento das toxinfecções alimentares, prevenção e epidemiologia. Legislação."
+  },
+  "SEGURANÇA INDUSTRIAL": {
+    "code": "JAL046A",
+    "ementa": "Conhecimento geral da legislação e das normas regulamentadoras de segurança no trabalho. Conceitos de acidentes e riscos. Programa de segurança da empresa (CIPA, PPRA, PCMSO, outros). Riscos ocupacionais: químicos, físicos e biológicos. Equipamentos de proteção coletiva e individual. Sinalização de segurança. Noções de Desenho Universal. Prevenção e combate a incêndios. Primeiros socorros. Noções de Ergonomia."
+  },
+  "MATÉRIAS PRIMAS AGROPECUÁRIAS": {
+    "code": "JAL047A",
+    "ementa": "Introdução as matérias-primas agropecuárias. Caracterização e composição das matérias-primas.  Tipos de matérias-primas: de origem animal e de origem vegetal. Qualidade, armazenamento e conservação das matérias-primas."
+  },
+  "MICROBIOLOGIA PREDITIVA": {
+    "code": "JAL055A",
+    "ementa": "Introdução à microbiologia preditiva. Dados experimentais. Modelos primários, secundários e terciários de crescimento e inativação de micro-organismos em alimentos. Análises estatísticas. Software e bases de dados microbiológicos."
+  },
+  "TÓPICOS EM ENGENHARIA DE ALIMENTOS IV": {
+    "code": "JAL056A",
+    "ementa": "Discussão aprofundada de assuntos atuais e de importância na Engenharia de Alimentos, com análise de processos e estudos de caso."
+  },
+  "TECNOLOGIA DE BEBIDAS": {
+    "code": "JAL058A",
+    "ementa": "Conceitos fundamentais, matérias-primas, características organolépticas, microbiologia, processamento de bebidas alcoólicas e não alcoólicas."
+  },
+  "COMUNICAÇÃO E EXPRESSÃO": {
+    "code": "JAN023",
+    "ementa": "Comunicação: seus diversos meios e formas. As relações entre linguagem oral e escrita e as especificidades dos textos orais e dos textos escritos. Tipos de discursos. Linguagem científica e Escrita acadêmica: resenha, resumo, fichamentos e artigos. Pensando a leitura: o ato de ler, os processos de leitura e seus diferentes níveis. Formação do leitor virtual. A análise textual: as relações de produção e recepção. Estratégias de produção textual e de leitura em língua materna.  Compromisso da educação com a escrita e a leitura."
+  },
+  "POLÍTICAS EDUCACIONAIS E GESTÃO ESCOLAR": {
+    "code": "JAN024",
+    "ementa": "Estudo da organização da educação básica no Brasil e a legislação educacional. Debate sobre o planejamento, a avaliação e o financiamento da educação básica pública. Políticas públicas para a diversidade cultural, as relações étnico-raciais, as questões indígenas, as questões ambientais e a educação inclusiva na escola. Familiarização com a gestão dos sistemas de ensino, de unidades escolares e com a construção do projeto pedagógico."
+  },
+  "PSICOLOGIA DA EDUCAÇÃO": {
+    "code": "JCE120",
+    "ementa": "Modelos psicológicos do desenvolvimento humano e implicações educacionais, como forma de compreender os processos de ensino, aprendizagem e os papéis desempenhados por educadoras, educadores e estudantes em contextos educativos. Contribuições da Psicologia para o debate sobre fracasso escolar e a medicalização da Educação."
+  },
+  "ÉTICA E EDUCAÇÃO": {
+    "code": "JAN027",
+    "ementa": "A gênese da moral e a existência da ética. O pensamento Aristotélico e Kantiano e a compreensão da ética como campo prático de uma ação racional. Reflexões sobre moral e ética na ação docente: problematização do papel da educação na formação moral e ética. Contribuições do estudo da moralidade para as questões da autoridade e autonomia; do individualismo, competição e cooperação; estereótipos, preconceito, violência e resolução de conflitos interpessoais. Educação em Direitos Humanos na escola contemporânea."
+  },
+  "DIDÁTICA": {
+    "code": "JAN029",
+    "ementa": "A evolução histórica da Didática: educação, escolarização e a formalização dos métodos de ensino. As tendências pedagógicas modernas e as relações pedagógicas (professor, aluno e conhecimento). O professor reflexivo, o planejamento e organização do ensino e da aprendizagem. A escolarização dos conhecimentos e a construção do currículo. O processo de avaliação escolar."
+  },
+  "EPISTEMOLOGIA": {
+    "code": "JCE125",
+    "ementa": "A superação do paradigma epistemológico da ciência moderna e os fundamentos filosóficos e metodológicos da ciência contemporânea. Implicações da relação entre o ser humano e o meio e a ação humana situada historicamente. As correntes filosóficas contemporâneas e a produção científica com o problema da demarcação do método."
+  },
+  "ARTE E EDUCAÇÃO": {
+    "code": "JAN033",
+    "ementa": "As Artes como objetivo de compreendê-la, tanto no que diz respeito ao processo criativo em si, quanto em suas relações com a sociedade. Apresentação de diversas perspectivas de compreensão do Belo e suas implicações para a produção artística, utilizando as linguagens artísticas, suas formas de expressão e teorias, deste modo, proporcionar ideias simples que permita ampliar a compreensão das Artes com os demais conteúdos escolares."
+  },
+  "EDUCAÇÃO DE JOVENS E ADULTOS": {
+    "code": "JAN036",
+    "ementa": "Tendências do pensamento político pedagógico sobre a educação de pessoas jovens e adultas: educação popular e educação continuada ao longo da vida. Políticas públicas de alfabetização e de educação de jovens e adultos no Brasil. Diversidade dos sujeitos de aprendizagem na educação de jovens e adultos."
+  },
+  "GÊNERO E EDUCAÇÃO": {
+    "code": "JAN038",
+    "ementa": ""
+  },
+  "INFÂNCIA E JUVENTUDE": {
+    "code": "JAN040",
+    "ementa": "A construção histórico-sociológica dos conceitos de infância e de juventude, crianças, adolescentes e jovens. Novos Estudos da Infância e Juventude. Direitos Fundamentais das Crianças e Adolescentes. Processos de socialização na sociedade atual: relações de pares e culturas infantis e juvenis. Interfaces de tais estudos e a área da Educação. Pesquisa com crianças e jovens: questões teóricas, éticas e metodológicas."
+  },
+  "MATEMÁTICA FINANCEIRA": {
+    "code": "JCE234",
+    "ementa": "Estudo dos conceitos de juros e de desconto simples e composto; Equivalência de capitais; Sistemas de amortização; Análise de investimentos."
+  },
+  "EDUCAÇÃO INCLUSIVA": {
+    "code": "JCE112",
+    "ementa": "Fundamentos da educação inclusiva: paradigmas, conceitos, histórico no Brasil e no mundo. Legislação e políticas de inclusão social e educacional. Necessidades educacionais especiais. Tecnologia assistiva. Propostas curriculares de inclusão educacional. Aprendizagem e avaliação em ambientes escolares inclusivos. Experiências de inclusão educacional."
+  },
+  "LÍNGUA BRASILEIRA DE SINAIS - LIBRAS I": {
+    "code": "JCE113",
+    "ementa": "Fundamentos da Educação de Surdos. Cultura e Identidade Surda. Legislação específica na área da pessoa surda. Debate em torno de estudos na perspectiva cultural, social, política e linguística dos surdos. Aspectos gramaticais da língua de sinais. Educação Bilíngue e educação inclusiva de surdos.  Noções básicas da língua de sinais brasileira: teoria e prática. Atividades de base para a aprendizagem de língua de sinais para uso no cotidiano ou relacionadas ao trabalho docente, à sala de aula."
+  },
+  "LÍNGUA BRASILEIRA DE SINAIS - LIBRAS II": {
+    "code": "JCE114",
+    "ementa": "Literatura visual. Estudos dos sinais. Atendimento ao aluno surdo. Língua Brasileira de Sinais como L1 e L2. Políticas públicas para educação de surdos. Sinais específicos Ciências Exatas. Aspectos fonológicos, morfológicos, pragmáticos e sintáticos da Libras. Construção de léxico por categorias semânticas. Abordagens metodológicas para o ensino de estudantes surdos. Construções de sentenças em níveis mais complexos da língua de sinais e uso dos classificadores."
+  },
+  "FUNDAMENTOS DA EDUCAÇÃO": {
+    "code": "JCE115",
+    "ementa": "Fundamentos históricos, filosóficos e sociológicos da Educação enquanto fenômeno cultural e político. A educação como socialização em suas dimensões informal, não formal e formal (escolar). A educação escolar e a docência como projetos da Modernidade."
+  },
+  "ÉTICA, CIDADANIA E DIREITOS HUMANOS": {
+    "code": "JCE117",
+    "ementa": "Perspectivas teóricas e análise de questões educacionais relacionadas às definições de ética, cidadania e direitos humanos. Estudos de implicações individuais (civis e políticas), sociais e culturais (econômicas, de igualdade e de democracia), coletivos (de fraternidade, de solidariedade, e de pluralidade como educação indígena, do campo e quilombola)."
+  },
+  "EDUCAÇÃO BÁSICA E GESTÃO ESCOLAR": {
+    "code": "JCE118",
+    "ementa": "A escola como instituição social e o desenvolvimento dos sistemas de ensino modernos. A educação escolar no Brasil. Estrutura legal, de financiamento e de funcionamento da educação básica. Gestão Escolar: o plano político-pedagógico e o debate sobre a escola democrática. As concepções de Gestão escolar: científico-racional, sociocrítica, autogestionária, interpretativa, democrático-participativa. Cultura escolar."
+  },
+  "DIDÁTICA GERAL": {
+    "code": "JCE121",
+    "ementa": "A evolução histórica da Didática: educação, escolarização e a formalização dos métodos de ensino. As tendências pedagógicas modernas e as relações pedagógicas (professor, aluno e conhecimento). O professor, o planejamento e organização do ensino e da aprendizagem. A escolarização dos conhecimentos e a construção do currículo. Os processos de avaliação escolar."
+  },
+  "DIVULGAÇÃO CIENTÍFICA": {
+    "code": "JCE122B",
+    "ementa": "Comunicação pública do conhecimento científico, educação e democracia. Educação em ambientes não- formais. Relações entre ciência e público. Aspectos históricos da divulgação e popularização da ciência no Brasil e no Mundo. Motivações e atores da divulgação científica na atualidade. Conteúdos em diferentes linguagens e veículos (TV, rádio, jornais diários, revistas especializadas e não-especializadas, centros e museus de ciência, Internet, eventos de rua, exposições etc.). Produção de conteúdo."
+  },
+  "MEIO AMBIENTE, DESENVOLVIMENTO E EDUCAÇÃO": {
+    "code": "JCE123B",
+    "ementa": "As relações sociedade-ambiente e a trajetória até a crise ambiental contemporânea; a sustentabilidade como discurso e como política pública e educacional; marcos teóricos e legais da educação ambiental; contato e elaboração com/de propostas pedagógicas e/ou materiais didáticos em/para educação para a sustentabilidade."
+  },
+  "DIDÁTICA DAS CIÊNCIAS": {
+    "code": "JCE124",
+    "ementa": "Ensino das ciências na contemporaneidade. Abordagens teóricas da didática das ciências naturais e da matemática, privilegiando temas como Transposição Didática, Contrato Didático, Alfabetização Científica e Modelização. Aplicação metodológica desses referenciais em questões específicas do ensino de ciências: concepções alternativas, obstáculos epistemológicos, consensos na ciência, as relações professor-aluno- material didático e a definição dos conteúdos curriculares escolares."
+  },
+  "POLÍTICAS EDUCACIONAIS": {
+    "code": "JCE126",
+    "ementa": "As relações entre estado, sociedade e educação escolar. Políticas públicas, projetos e reformas educacionais vigentes e/ou em debate. Análise da legislação e do financiamento educacional. Debates contemporâneos na educação brasileira."
+  },
+  "QUÍMICA DO COTIDIANO": {
+    "code": "JCE212B",
+    "ementa": "Estudo de temas que contemplam atividades produtivas como, por exemplo, a química de alimentos, de combustíveis, de detergentes e de cosméticos. Aplicação do cotidiano ao Ensino de Química de forma dialogada com possíveis implicações sociais, ambientais e políticas. Estudo da Química articulado as propriedades, transformações e constituição dos materiais e substâncias."
+  },
+  "QUÍMICA GERAL II": {
+    "code": "JCE221",
+    "ementa": "Átomos e moléculas II. Tabela Periódica. Aspectos quantitativos das reações Químicas II. Cinética Química. Equilíbrio químico."
+  },
+  "QUÍMICA GERAL III": {
+    "code": "JCE226",
+    "ementa": "Reações Químicas envolvendo transferência de elétrons. Tabela Periódica II. Química nuclear. Química orgânica."
+  },
+  "QUÍMICA E SOCIEDADE": {
+    "code": "JCE230",
+    "ementa": "Concepções e tendências da extensão; Importância dos projetos de extensão para Universidade e comunidade.  Avaliação de necessidades da comunidade. Viabilidade do projeto dentro e fora da Universidade. Etapas para a elaboração de projetos de extensão. A importância do ensino de química na"
+  },
+  "FÍSICA IV": {
+    "code": "JCE233",
+    "ementa": "Temperatura, Lei 0 da Termodinâmica. Calor e Primeira Lei da Termodinâmica. Lei dos Gases Ideais. Entropia e Segunda Lei da Termodinâmica. Conceitos de Óptica Física e Geométrica. Conceitos básicos de Física Moderna."
+  },
+  "HISTÓRIA DA CIÊNCIA E DA TECNOLOGIA": {
+    "code": "JCE236",
+    "ementa": "A História e a Historiografia da Ciência: da Antiguidade à Modernidade. Aspectos sociológicos e filosóficos do desenvolvimento do pensamento científico e tecnológico. A importância da ciência e da tecnologia na cultura e no cotidiano social. A pertinência da abordagem histórico-filosófica da ciência e da tecnologia em propostas educativas"
+  },
+  "FÍSICA MATEMÁTICA": {
+    "code": "JCE237",
+    "ementa": ""
+  },
+  "TERMODINÂMICA": {
+    "code": "JCE238B",
+    "ementa": "Conceito de temperatura. Equilíbrio termodinâmico. A primeira lei da termodinâmica. Energia interna. Fluxo de calor. Calor específico. Processo adiabático. Ciclo de Carnot. Entropia e a Segunda lei da termodinâmica. Potenciais Termodinâmicos. Transições de fase. Teoria cinética elementar dos gases. Noções de Mecânica Estatística."
+  },
+  "MECÂNICA CLÁSSICA": {
+    "code": "JCE245B",
+    "ementa": "Mecânica Newtoniana. Movimento de um corpo pontual em uma, duas e três dimensões. Movimento de um sistema de partículas. Problema de Força central. Dinâmica de corpo rígido. Gravitação Universal. Oscilações"
+  },
+  "ELETROMAGNETISMO": {
+    "code": "JCE250B",
+    "ementa": "Sistemas de coordenadas cartesianas e curvilíneas; Operadores diferenciais; teorema de Gauss, Green e Stokes; Eletrostática; meios dielétricos; energia eletrostática; corrente elétrica; campo magnético; propriedades magnéticas da matéria; indução eletromagnética; energia magnética; equações de Maxwell."
+  },
+  "FÍSICA MODERNA I": {
+    "code": "JCE251",
+    "ementa": "Relatividade Restrita. Radiação de Corpo Negro. Efeito Fotoelétrico. Raios-x e Efeito Compton. Modelos Atômicos. Modelo de Bohr. Propriedade Ondulatória das Partículas. Equação de Schrödinger."
+  },
+  "FÍSICA MODERNA II": {
+    "code": "JCE257B",
+    "ementa": "Átomo de hidrogênio. Introdução a Física Estatística. Ligações Químicas. Introdução a Física do Estado Sólido, Física Nuclear, Física de Partículas, Astrofísica e Cosmologia, Nanomateriais, Supercondutividade. Tópicos Contemporâneos de Física."
+  },
+  "JOGOS DE EMPRESAS": {
+    "code": "JEP053A",
+    "ementa": "Promover o aprendizado prático de habilidades-chave da Engenharia de Produção por meio de um jogo de estratégia e gestão empresarial e operacional. Desenvolver as competências de trabalho em equipe, tomada de decisão, habilidades de influência e comunicação."
+  },
+  "METODOLOGIAS ATIVAS DE ENSINO PARA ENGENHARIAS": {
+    "code": "JEP054A",
+    "ementa": "Metodologias ativas de ensino. Desenvolvimento de estratégias didáticas e práticas pedagógicas vinculadas às metodologias ativas. Ações educativas em vários campos de atuação da Engenharia."
+  },
+  "GESTÃO DA INOVAÇÃO": {
+    "code": "JEP055A",
+    "ementa": "Ciência, tecnologia e Desenvolvimento. O ciclo de vida da tecnologia. Tipos de inovação. Inovação tecnológica: abordagem conceitual. O processo de inovação. Eixos da gestão da tecnologia e da Inovação. Implicações da inovação na estrutura da empresa. Acumulação de competências tecnológicas. Indicadores para inovação."
+  },
+  "INTRODUÇÃO A MODELAGEM NA GESTÃO DE SERVIÇOS": {
+    "code": "JEP056A",
+    "ementa": "Modelo de abordagem, representação conceitual do contexto, representação estrutural do contexto, simulação e prospecção de cenários"
+  },
+  "MODELAGEM NA GESTÃO DE SERVIÇOS II": {
+    "code": "JEP057A",
+    "ementa": "Estruturação avançada do contexto, modelagem matemática, ferramentas de análise na simulação e prospecção de cenários, apresentação científica."
+  },
+  "METODOLOGIA DE AUXÍLIO À TOMADA DE DECISÃO MULTICRITÉRIO": {
+    "code": "JEP058A",
+    "ementa": "Analytic Hierarchy Process: Fundamentos e Análise de Sensibilidade. Analytic Network Process. Data Envelopment Analysis: Fundamentos; Modelos CCR, Modelos BCC, Modelos Baseados por Folgas, Network DEA. Outros métodos Pertinentes a Metodologia de Auxílio à Tomada de Decisão Multicritério"
+  },
+  "FUNDAMENTOS EM AVALIAÇÃO SUSTENTÁVEL DO CICLO DE VIDA": {
+    "code": "JEP059A",
+    "ementa": "Introdução à Avaliação Sustentável do Ciclo de Vida. Abordagens, conceitos básicos e suas aplicações. Metodologias, suas aplicações e suas etapas."
+  },
+  "GESTÃO DA SEGURANÇA DO TRABALHO": {
+    "code": "JEP061A",
+    "ementa": "Segurança do trabalho e Higiene Ocupacional. Base legal em Segurança do trabalho: Legislação, Normas Regulamentadoras e Normas de Higiene Ocupacional. Conceito legal de insalubridade e periculosidade no trabalho. Agentes agressivos ambientais à saúde e formas de prevenção Acidentes de trabalho. Métodos de Análise de acidentes de trabalho. Gestão da segurança do trabalho."
+  },
+  "METROLOGIA": {
+    "code": "JEP062A",
+    "ementa": "Sistemas internacionais de medidas. Terminologia. Sistema generalizado de medição. Erros e incertezas de medição. Calibração dos sistemas de medição. Instrumentos convencionais de medidas lineares e angulares. Instrumentos comparadores. Análise do Sistema de Medição."
+  },
+  "PLANEJAMENTO DE EXPERIMENTOS": {
+    "code": "JEP063A",
+    "ementa": "Princípios básicos da experimentação. Experimentos em blocos. Experimentos com um fator: efeitos fixos e aleatórios. Planejamentos em blocos aleatorizados, quadrados latinos. Planejamentos fatoriais: introdução, dois fatores (efeitos fixos, aleatórios e mistos), planejamento fatorial geral. Planejamento de Experimentos com misturas"
+  },
+  "PRÁTICAS DE PROTOTIPAGEM I": {
+    "code": "JEP064A",
+    "ementa": "Introdução a Manufatura Aditiva e Prototipagem. Integração da manufatura aditiva com o processo de desenvolvimento de produto. Materiais utilizados para prototipagem. Conceitos básicos de modelagem 3D e criação de modelos sólidos para a produção de um objeto físico. Técnicas de prototipagem rápida: Impressão 3D, Modelagem por depósito de material, corte à laser e Escaneamento 3D."
+  },
+  "PRÁTICAS DE PROTOTIPAGEM II": {
+    "code": "JEP065A",
+    "ementa": "Introdução a Manufatura Aditiva e Prototipagem. Integração da manufatura aditiva com o processo de desenvolvimento de produto. Introdução ao Arduino. Eletrônica básica. Softwares de simulação. Desenvolvimento de protótipos."
+  },
+  "TÓPICOS CONTEMPORÂNEOS EM ENGENHARIA DE PRODUÇÃO I": {
+    "code": "JEP067A",
+    "ementa": "Apresentação e discussão de temas atuais e de importância na Engenharia de Produção I"
+  },
+  "TÓPICOS CONTEMPORÂNEOS EM ENGENHARIA DE PRODUÇÃO II": {
+    "code": "JEP068A",
+    "ementa": "Apresentação e discussão de temas atuais e de importância na Engenharia de Produção II. Estudos de caso."
+  },
+  "TÓPICOS CONTEMPORÂNEOS EM ENGENHARIA DE PRODUÇÃO III": {
+    "code": "JEP069A",
+    "ementa": "Apresentação e discussão de temas atuais e de importância na Engenharia de Produção III. Estudos de caso."
+  },
+  "TÓPICOS EM CIÊNCIA DE DADOS": {
+    "code": "JEP070A",
+    "ementa": "Teoria, métodos, técnicas e ferramentas contemporâneas para tomada de decisão baseada em dados. Banco de dados. Análise exploratória de dados. Problemas de classificação, previsão e agrupamento de dados. Algoritmos de machine learning. Estudos de caso."
+  },
+  "TÓPICOS ESPECIAIS EM ALGORITMOS HEURÍSTICOS": {
+    "code": "JEP071A",
+    "ementa": "Estudo de métodos heurísticos para resolução de problemas de otimização combinatória. Heurísticas gulosas, construtivas e melhorativas. Metaheurísticas baseadas em população. Metaheurísticas baseadas em trajetória. Estudos de caso."
+  },
+  "TÓPICOS ESPECIAIS EM CADEIA DE SUPRIMENTOS": {
+    "code": "JEP072A",
+    "ementa": "Conceitos, métodos, técnicas e ferramentas contemporâneas em Logística e Cadeia de Suprimentos. Gestão de Estoques. Projeto e Análise de Sistemas Logísticos. Logística de Transportes. Abordagens logísticas: reversa, de defesa e humanitária."
+  },
+  "TÓPICOS ESPECIAIS EM ENGENHARIA DA QUALIDADE": {
+    "code": "JEP073A",
+    "ementa": "Conceitos, métodos, técnicas e ferramentas contemporâneas em Gestão de Sistemas de Qualidade, Planejamento e Controle da Qualidade, Normalização, Auditoria e Certificação, Confiabilidade de Processos e Produtos. Estudos de caso."
+  },
+  "TÓPICOS ESPECIAIS EM ENGENHARIA DA SUSTENTABILIDADE": {
+    "code": "JEP074A",
+    "ementa": ""
+  },
+  "TÓPICOS ESPECIAIS EM ENGENHARIA DE OPERAÇÕES": {
+    "code": "JEP075A",
+    "ementa": "Métodos, técnicas e ferramentas contemporâneas relacionadas com Gestão, Operações e Métodos de processos. Estudos de caso."
+  },
+  "TÓPICOS ESPECIAIS EM ENGENHARIA DO PRODUTO": {
+    "code": "JEP076A",
+    "ementa": "Métodos, técnicas e ferramentas contemporâneos relacionadas ao Desenvolvimento e Projeto de novos Produtos. Estudos de Caso."
+  },
+  "TÓPICOS ESPECIAIS EM ENGENHARIA DO TRABALHO": {
+    "code": "JEP077A",
+    "ementa": "Conceitos, métodos, técnicas e ferramentas contemporâneos de Engenharia do trabalho. Organização do Trabalho. Ergonomia. Higiene e Segurança do Trabalho. Engenharia de Métodos e Processos. Estudos de Caso."
+  },
+  "TÓPICOS ESPECIAIS EM ENGENHARIA ECONÔMICA": {
+    "code": "JEP078A",
+    "ementa": "Conceitos, métodos, técnicas e ferramentas contemporâneas em Gestão Econômica, Gestão de Custos, Gestão de Investimentos, Gestão de Riscos. Estudos de caso."
+  },
+  "TÓPICOS ESPECIAIS EM ENGENHARIA ORGANIZACIONAL": {
+    "code": "JEP079A",
+    "ementa": "Conceitos, métodos, técnicas e ferramentas contemporâneas em Gestão Estratégica, Gestão de Projetos, Desempenho Organizacional, Gestão da Informação, Rede de Empresas, Gestão da Inovação, Tecnologia e Conhecimento. Gestão da Criatividade e do Entretenimento."
+  },
+  "TÓPICOS ESPECIAIS EM PESQUISA OPERACIONAL": {
+    "code": "JEP080A",
+    "ementa": "Conceitos, métodos, técnicas e ferramentas contemporâneas em Pesquisa Operacional, Modelagem, Simulação, Otimização, Programação Matemática, Processos Decisórios, Teoria dos Jogos, Análise de Demanda, Inteligência Computacional. Estudos de Caso."
+  },
+  "ALGORITMOS  E ESTRUTURAS DE DADOS I": {
+    "code": "JLC001",
+    "ementa": "Conceito e desenvolvimento de algoritmos. Forma de representação de algoritmos. Tipos de dados. Operadores. Operações de entrada e saída. Estruturas fundamentais: sequência, decisão e repetição. Estruturas de dados homogêneas. Programação modularizada. Introdução a uma linguagem de programação. Solução de problemas simples por computadores."
+  },
+  "OFICINA DE COMPUTAÇÃO": {
+    "code": "JLC005",
+    "ementa": "Uso dirigido de ferramentas de desenvolvimento de software. Práticas de projetos de algoritmos."
+  },
+  "SISTEMAS OPERACIONAIS": {
+    "code": "JLC008",
+    "ementa": "Conceitos e estrutura de um sistema operacional. Processos e threads. Entrada e saída. Gerenciamento de memória. Sistemas de arquivos. Segurança e proteção."
+  },
+  "ENGENHARIA DE SOFTWARE": {
+    "code": "JLC012",
+    "ementa": "Software e Engenharia de Software. Modelagem de Sistemas: Conceitos. Modelos de Processo de Software: Modelos Cascata, Espiral e Evolucionários. Engenharia de Requisitos. Análise e Projeto de"
+  },
+  "MULTIMÍDIA": {
+    "code": "JLC013",
+    "ementa": "Conceitos de multimídia e sistemas multimídia. Arquitetura e aplicações multimídia, classificação dos tipos de sistemas multimídias. Dispositivos de entrada e saída em ambientes multimídia. Desenho e animação digital. Fundamentos do processamento de imagens. Fundamentos de animação. Fundamentos de processamento de som. Critérios de seleção de soluções multimídia. Utilização e Recursos de softwares de autoria."
+  },
+  "INTERAÇÃO HUMANO COMPUTADOR": {
+    "code": "JLC014",
+    "ementa": "Interação Humano Computador: conceitos e definições. Fatores Humanos em softwares interativos: teoria, princípios e diretivas básicas. Psicologia do usuário: aspectos perceptivos e cognitivos. Estilos e paradigmas de interação em interfaces gráficas. Dispositivos de Interação. Design de interação. Recursos de hardwares e softwares de Interface. Usabilidade e Avaliação. Acessibilidade: interfaces para dispositivos móveis, plataformas web e desktop."
+  },
+  "ACESSIBILIDADE DIGITAL": {
+    "code": "JLC023",
+    "ementa": "Conceituação, princípios, legislação, recomendações e normas da acessibilidade. Tecnologias assistivas (conceito, tipos, classificação, desenvolvimento). Acessibilidade no Processo de Desenvolvimento de Software."
+  },
+  "PROGRAMAÇÃO PARA INTERNET": {
+    "code": "JLC024",
+    "ementa": "Conceitos básicos sobre aplicações cliente/servidor; HTML (Hypertext Markup Language); JavaScript; CSS (Cascading Style Sheet); Linguagem de programação para Web; Desenvolvimento e implantação de sistemas para internet com utilização de banco de dados."
+  },
+  "OBJETOS DE APRENDIZAGEM": {
+    "code": "JLC027",
+    "ementa": "Tecnologias de Informação e Comunicação (TIC) e os Objetos de Aprendizagem. Apresentação e discussão sobre o conceito de Objetos de Aprendizagem e sua utilização em um ambiente permeado pelas TIC e mediado pelo professor. Apresentação e discussão sobre outros conceitos importantes da base teórico-pedagógica do Objeto de Aprendizagem: Design Pedagógico, Roteiro de Atividades e Guia do Professor. Usabilidade na Educação. Etapas de desenvolvimento de um Objeto de Aprendizagem."
+  },
+  "REDES DE COMPUTADORES": {
+    "code": "JLC031",
+    "ementa": "Modelos OSI e TCP/IP. Camada de Aplicação. Camada de Transporte. Camada de Rede. Camada Física."
+  },
+  "SISTEMAS DISTRIBUIDOS": {
+    "code": "JLC032",
+    "ementa": "Características, Modelos e Desafios de Sistemas Distribuídos. Coordenação Distribuída."
+  },
+  "TÓPICOS AVANÇADOS EM ARQUITETURA DE COMPUTADORES": {
+    "code": "JLC035",
+    "ementa": "Arquiteturas superescalares. Arquiteturas multinúcleos. Arquiteturas não convencionais. Aspectos tecnológicos de última geração."
+  },
+  "TEORIA DOS GRAFOS": {
+    "code": "JLC036",
+    "ementa": "Introdução e Conceitos Básicos. Tipos de Grafos. Subgrafos. Representação. Algoritmos de Busca em Grafos. Árvore Geradora Mínima. Coloração em Grafos."
+  },
+  "RECONHECIMENTO DE PADRÕES": {
+    "code": "JLC039",
+    "ementa": "Descoberta de Conhecimento em Bases de Dados. Aprendizagem Supervisionada: Regressão, Classificação, Previsão. e Não Supervisionada: Agrupamento. Otimização."
+  },
+  "PROCESSAMENTO PARALELO": {
+    "code": "JLC041",
+    "ementa": "Fundamentos de computação paralela. Arquiteturas paralelas e distribuídas. Programação paralela. Métricas de desempenho."
+  },
+  "PROCESSAMENTO DE IMAGENS": {
+    "code": "JLC042",
+    "ementa": "Fundamentos de Processamento de Imagens. Áreas de Aplicação. Formação de Imagens. Amostragem e Quantização. Técnicas de Melhoramento de Imagens. Segmentação de Imagens. Representação e Descrição. Compressão. Classificação de Imagens."
+  },
+  "PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO": {
+    "code": "JLC043",
+    "ementa": ""
+  },
+  "JOGOS DIGITAIS EDUCACIONAIS": {
+    "code": "JLC046",
+    "ementa": "Jogos: histórico e categorias; Desenvolvimento de Jogos: projeto, técnicas e ferramentas; Jogos digitais como ferramenta de ensino; Projeto de Jogos Digitais Educacionais."
+  },
+  "GESTÃO DA EDUCAÇÃO A DISTÂNCIA": {
+    "code": "JLC049",
+    "ementa": "Fundamentos da Gestão da EaD. Legislação da EaD no Brasil. Processos de desenvolvimento de EaD. Gerenciamento de equipes de EaD. Dirigentes, Administração e Políticas. O alcance global da EaD. EaD na era digital."
+  },
+  "GERENCIAMENTO DE PROJETO DE SOFTWARE": {
+    "code": "JLC050",
+    "ementa": "Histórico, Fundamentos e Ciclo de Vida dos Projetos. Técnicas de Organização, Negociação e Planejamento. Estudo de Viabilidades e Planejamento de Projetos: Estimativas e Análise de Pontos de Função. Fundamentos de Métricas de Software: Processo de Medição; Métricas de Tamanho, de Complexidade Estrutural, baseadas no Fluxo de Dados e Orientadas a Objeto. Utilização das ferramentas PMBOK e PMI: áreas de Integração, Escopo, Tempo, Custos, Qualidade, Recursos Humanos, Comunicação, Riscos e Aquisições. Utilização de ferramentas computacionais de planejamento e gerência de projetos."
+  },
+  "TECNOLOGIAS E EDUCAÇÃO A DISTÂNCIA": {
+    "code": "JLC056",
+    "ementa": "Contexto histórico da Educação a Distância (EaD). Legislação da EaD no Brasil. Tecnologias e Mídia para EaD. Sistemas de EaD. Modelos Pedagógicos de EaD. O Ensino e a Aprendizagem na EaD. Avaliação da Aprendizagem na EaD.  Desenvolvimento de recursos didáticos para EaD."
+  },
+  "TEORIA DA COMPUTAÇÃO": {
+    "code": "JLC057",
+    "ementa": "Linguagens e gramáticas. Linguagens regulares, livres e sensíveis ao contexto. Autômatos. Máquina de Turing. Computabilidade. Classes de problemas P, NP, NP-Completo e NP\u0002Difícil. Tese de Church-Turing. Problema da parada. Decidibilidade. Reducidibilidade."
+  },
+  "COMPLEXIDADE COMPUTACIONAL": {
+    "code": "JLC058",
+    "ementa": "Máquinas de Turing. Classes de problemas P, NP, coNP, NP-Completo, NP-Difícil, PESPAÇO. Teorema de Cook-Levin. Reduções entre problemas."
+  },
+  "COMPILADORES": {
+    "code": "JLC059",
+    "ementa": "Organização e estrutura de compiladores e interpretadores. Análise léxica. Análise sintática. Representação interna de código-fonte. Análise semântica. Geração de código. Otimização de código. Máquinas abstratas e ambientes de tempo de execução."
+  },
+  "ANÁLISE DE ALGORITMOS": {
+    "code": "JLC060",
+    "ementa": "Notação assintótica O, o, , , . Modelo de computação. Análises de melhor caso, pior caso e caso médio. Análise de algoritmos iterativos. Análise de algoritmos recursivos."
+  },
+  "RECURSOS EDUCACIONAIS ABERTOS": {
+    "code": "JLC068",
+    "ementa": "Práticas Educacionais abertas. Direitos autorais. Políticas Públicas. Movimentos de Educação Aberta e REA (nacionais e internacionais). Ciclo de vida de um REA (5R). Formatos de REA. Produção de REA."
+  }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - Administração</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        body { padding: 2rem 5%; }
+        .admin-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 3rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 1rem; }
+        .dashboard-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+        .admin-panel { background: rgba(0,0,0,0.2); padding: 2rem; border-radius: 15px; border: 1px solid var(--glass-border); }
+        .data-table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        .data-table th, .data-table td { padding: 0.8rem; text-align: left; border-bottom: 1px solid var(--glass-border); }
+        .btn-danger { background: #ef4444; color: white; border: none; padding: 0.5rem 1rem; border-radius: 5px; cursor: pointer; }
+        .btn-success { background: var(--accent); color: white; border: none; padding: 0.8rem 1.5rem; border-radius: 8px; cursor: pointer; font-weight: bold; text-decoration: none; display: inline-block; }
+        .form-row { margin-bottom: 1rem; }
+        @media (max-width: 768px) { .dashboard-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="admin-header">
+        <h2>Dashboard Administrativo</h2>
+        <a href="{{ url_for('logout') }}" class="cta-button" style="padding: 0.5rem 1.5rem;">Sair</a>
+    </div>
+
+    <div class="dashboard-grid">
+        <!-- Oportunidades -->
+        <div class="admin-panel">
+            <h3>Gerenciar Oportunidades</h3>
+            <form action="{{ url_for('add_opportunity') }}" method="POST" style="margin: 2rem 0; padding-bottom: 2rem; border-bottom: 1px solid var(--glass-border);">
+                <div class="form-row">
+                    <input type="text" name="title" class="form-input" placeholder="Título (ex: Estágio na Volvo)" required>
+                </div>
+                <div class="form-row">
+                    <select name="type" class="form-input" required style="background: var(--bg-color);">
+                        <option value="Estágio">Estágio</option>
+                        <option value="Pesquisa">Pesquisa</option>
+                        <option value="Extensão">Extensão</option>
+                        <option value="Emprego">Emprego</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <input type="date" name="valid_until" class="form-input" placeholder="Válido até (opcional, padrão 30 dias)">
+                    <small style="color: #94a3b8; display: block; margin-top: 0.5rem; text-align: left;">Deixe em branco para expirar em 30 dias.</small>
+                </div>
+                <div class="form-row">
+                    <textarea name="description" class="form-input" placeholder="Descrição da vaga..." rows="3" required></textarea>
+                </div>
+                <button type="submit" class="cta-button" style="width: 100%;">+ Adicionar Nova Oportunidade</button>
+            </form>
+
+            <h4>Oportunidades Ativas</h4>
+            <table class="data-table">
+                <tr>
+                    <th>Título</th>
+                    <th>Tipo</th>
+                    <th>Validade</th>
+                    <th>Ação</th>
+                </tr>
+                {% for opp in opportunities %}
+                <tr>
+                    <td>{{ opp.title }}</td>
+                    <td><span class="badge">{{ opp.type }}</span></td>
+                    <td>{{ opp.valid_until }}</td>
+                    <td>
+                        <form action="{{ url_for('delete_opportunity', id=opp.id) }}" method="POST" style="display:inline;">
+                            <button type="submit" class="btn-danger">Excluir</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+
+        <!-- Leads -->
+        <div class="admin-panel">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <h3>Alunos Interessados (Leads)</h3>
+                <a href="{{ url_for('export_leads') }}" class="btn-success">⬇ Baixar CSV</a>
+            </div>
+            <p style="color: #94a3b8; margin-bottom: 1rem;">Total de inscrições: {{ leads|length }}</p>
+            <div style="overflow-x: auto;">
+                <table class="data-table">
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                    </tr>
+                    {% for lead in leads %}
+                    <tr>
+                        <td>{{ lead.id }}</td>
+                        <td>{{ lead.name }}</td>
+                        <td>{{ lead.email }}</td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="3" style="text-align: center; color: #94a3b8;">Nenhum lead capturado ainda.</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
