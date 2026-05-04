@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engenharia de Produção | UFPR Jandaia do Sul</title>
+    <meta name="description" content="Curso de Engenharia de Produção da Universidade Federal do Paraná, campus Jandaia do Sul. Inovação, tecnologia e gestão.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">UFPR <span>Produção</span></div>
+        <ul class="nav-links">
+            <li><a href="#sobre">Sobre o Curso</a></li>
+            <li><a href="#grade">Grade</a></li>
+            <li><a href="#docentes">Docentes</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="/acervo">Acervo</a></li>
+            <li><a href="/admin">Portal Docente</a></li>
+            <li><button id="theme-toggle" class="theme-toggle" title="Alternar Tema Escuro/Claro"><span class="theme-icon">☀️</span> Light Mode</button></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Engenharia de Produção</h1>
+                <p class="subtitle">UFPR • Jandaia do Sul</p>
+                <p class="description">Projete o futuro. Otimize processos. Lidere a inovação na indústria moderna.</p>
+                <a href="#sobre" class="cta-button">Conheça o Curso</a>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="{{ url_for('static', filename='images/UFPR Isometric.png') }}" alt="Campus UFPR Jandaia do Sul" class="hero-image">
+                <div class="floating-badge">
+                    <span>📍</span> Vale do Ivaí
+                </div>
+            </div>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </header>
+
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2 class="section-title">Formando Líderes do Futuro</h2>
+            <div class="card-grid leaders-grid">
+                <div class="glass-card">
+                    <div class="icon">🔧</div>
+                    <h3>Engenharia</h3>
+                    <p>Base sólida em engenharia para resolver problemas complexos com rigor técnico e científico.</p>
+                </div>
+                <div class="glass-card">
+                    <div class="icon">🏭</div>
+                    <h3>Gestão Industrial</h3>
+                    <p>Desenvolvimento de habilidades de liderança e estratégia focadas no ambiente de produção.</p>
+                </div>
+                <div class="glass-card">
+                    <div class="icon">🚀</div>
+                    <h3>Inovação</h3>
+                    <p>Integração de novas tecnologias, Indústria 4.0 e processos sustentáveis inovadores.</p>
+                </div>
+                <div class="glass-card">
+                    <div class="icon">📈</div>
+                    <h3>Melhoria e Otimização</h3>
+                    <p>Foco na eficiência, redução de desperdícios e aprimoramento contínuo de sistemas operacionais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="diferenciais" class="section dark-section">
+        <div class="container">
+            <h2 class="section-title">Por que UFPR Jandaia do Sul?</h2>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>Nosso campus no Vale do Ivaí oferece uma infraestrutura moderna e um corpo docente altamente qualificado. Com um ambiente acolhedor, você terá contato próximo com professores e pesquisadores, além de oportunidades reais em projetos de extensão e iniciação científica.</p>
+                    <ul class="feature-list">
+                        <li class="dropdown-trigger" id="lab-dropdown-btn">
+                            <span>✓</span> Laboratórios altamente equipados <span class="arrow-icon">▼</span>
+                            <div class="dropdown-content" id="lab-dropdown-content">
+                                <ul>
+                                    <li>Laboratório de Física</li>
+                                    <li>Laboratório de Química</li>
+                                    <li>Laboratório de Informática Aplicado a Eng. de Produção (LIAEP)</li>
+                                    <li>Laboratório "Hands-on"</li>
+                                    <li>Laboratório de Protótipos de Máquinas e Mecanização Agrícola</li>
+                                    <li>Laboratório Maker de Inovação em Eng. do Produto e Trabalho (LIEPT)</li>
+                                    <li>Laboratório de Gestão de Resíduos e Tecnologias Sustentáveis (LabGERTS)</li>
+                                    <li>Laboratório de Energia, Eletrotécnica e Automação</li>
+                                    <li>Laboratórios de Pesquisa Operacional e Simulação (LIPOSAD e LaMSS)</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><span>✓</span> Foco na realidade industrial da região</li>
+                        <li><span>✓</span> Ensino público, gratuito e de excelência</li>
+                    </ul>
+                </div>
+                <div class="image-placeholder">
+                    <div class="floating-element"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="grade" class="section">
+        <div class="container">
+            <h2 class="section-title">Grade Curricular</h2>
+            <p style="text-align: center; color: #94a3b8; margin-top: -2rem; margin-bottom: 2rem;">Explore as disciplinas do curso divididas por semestre.</p>
+            
+            <div class="course-stats">
+                <div class="stat-card">
+                    <span class="stat-value">PPC</span>
+                    <span class="stat-label">Versão 2023</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">3630h</span>
+                    <span class="stat-label">Carga Horária Total</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">10 a 15</span>
+                    <span class="stat-label">Semestres (Duração)</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">150h</span>
+                    <span class="stat-label">Atividades Formativas</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">180h</span>
+                    <span class="stat-label">Optativas</span>
+                </div>
+            </div>
+
+            <div class="tabs-container glass-card">
+                <div class="tabs-header">
+                    <button class="tab-btn active" data-tab="sem1">1º Sem</button>
+                    <button class="tab-btn" data-tab="sem2">2º Sem</button>
+                    <button class="tab-btn" data-tab="sem3">3º Sem</button>
+                    <button class="tab-btn" data-tab="sem4">4º Sem</button>
+                    <button class="tab-btn" data-tab="sem5">5º Sem</button>
+                    <button class="tab-btn" data-tab="sem6">6º Sem</button>
+                    <button class="tab-btn" data-tab="sem7">7º Sem</button>
+                    <button class="tab-btn" data-tab="sem8">8º Sem</button>
+                    <button class="tab-btn tab-remote" data-tab="sem9">9º Sem 🌍</button>
+                    <button class="tab-btn tab-remote" data-tab="sem10">10º Sem 🌍</button>
+                </div>
+                <div class="tabs-content">
+                    <div class="tab-pane active" id="sem1">
+                        <div class="mode-badge in-person-badge">🏫 Modalidade: Presencial</div>
+                        <ul class="discipline-list">
+                            <li class="eixo-basico">Álgebra Linear e Geometria Analítica</li>
+                            <li class="eixo-basico">Cálculo I</li>
+                            <li class="eixo-prof-basico">Ciência, Tecnologia e Sociedade</li>
+                            <li class="eixo-basico">Desenho Técnico</li>
+                            <li class="eixo-basico">Química Geral Experimental</li>
+                            <li class="eixo-basico">Química Geral Teórica</li>
+                            <li class="eixo-interdisciplinar">Introdução à Engenharia de Produção <span class="tag-area tag-e10">E10</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="sem2">
+                        <div class="mode-badge in-person-badge">🏫 Modalidade: Presencial</div>
+                        <ul class="discipline-list">
+                            <li class="eixo-basico">Cálculo II</li>
+                            <li class="eixo-basico">Estatística I</li>
+                            <li class="eixo-basico">Física I</li>
+                            <li class="eixo-basico">Física Experimental I</li>
+                            <li class="eixo-basico">Metodologia Científica e Tecnológica</li>
+                            <li class="eixo-prof-basico">Desenho Assistido por Computador <span class="tag-area tag-e5">E5</span></li>
+                            <li class="eixo-prof-especifico">Processos de Fabricação para EP <span class="tag-area tag-e5">E5</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="sem3">
+                        <div class="mode-badge in-person-badge">🏫 Modalidade: Presencial</div>
+                        <ul class="discipline-list">
+                            <li class="eixo-basico">Cálculo III</li>
+                            <li class="eixo-basico">Estatística II</li>
+                            <li class="eixo-basico">Física II</li>
+                            <li class="eixo-basico">Física Experimental II</li>
+                            <li class="eixo-basico">Algoritmos e Programação de Computadores</li>
+                            <li class="eixo-prof-basico">Gerenciamento de Projetos <span class="tag-area tag-e6">E6</span></li>
+                            <li class="eixo-interdisciplinar">Projeto Integrador Extensionista I <span class="tag-area tag-e10">E10</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="sem4">
+                        <div class="mode-badge in-person-badge">🏫 Modalidade: Presencial</div>
+                        <ul class="discipline-list">
+                            <li class="eixo-prof-basico">Administração Estratégica de Operações</li>
+                            <li class="eixo-prof-basico">Ciência dos Materiais para EP</li>
+                            <li class="eixo-basico">Física III</li>
+                            <li class="eixo-basico">Física Experimental III</li>
+                            <li class="eixo-prof-basico">Gestão da Qualidade <span class="tag-area tag-e4">E4</span></li>
+                            <li class="eixo-prof-especifico">Tecnologia da Decisão I <span class="tag-area tag-e3">E3</span></li>
+                            <li class="eixo-prof-basico">Projeto do Trabalho <span class="tag-area tag-e8">E8</span></li>
+                            <li class="eixo-optativa">Optativa I</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="sem5">
+                        <div class="mode-badge in-person-badge">🏫 Modalidade: Presencial</div>
+                        <ul class="discipline-list">
+                            <li class="eixo-basico">Cálculo Numérico</li>
+                            <li class="eixo-prof-basico">Economia</li>
+                            <li class="eixo-prof-basico">Gestão Ambiental</li>
+                            <li class="eixo-basico">Mecânica para Engenharia</li>
+                            <li class="eixo-prof-basico">Engenharia da Qualidade <span class="tag-area tag-e4">E4</span></li>
+                            <li class="eixo-prof-basico">Engenharia Ergonômica <span class="tag-area tag-e8">E8</span></li>
+                            <li class="eixo-prof-especifico">Sistemas de Produção <span class="tag-area tag-e1">E1</span></li>
+                            <li class="eixo-interdisciplinar">Projeto Integrador Extensionista II <span class="tag-area tag-e10">E10</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="sem6">
+                        <div class="mode-badge in-person-badge">🏫 Modalidade: Presencial</div>
+                        <ul class="discipline-list">
+                            <li class="eixo-basico">Fenômenos de Transporte</li>
+                            <li class="eixo-prof-basico">Contabilidade e Custos Industriais <span class="tag-area tag-e7">E7</span></li>
+                            <li class="eixo-prof-basico">Economia Circular <span class="tag-area tag-e9">E9</span></li>
+                            <li class="eixo-prof-especifico">Planejamento de Vendas e Operações <span class="tag-area tag-e6">E6</span></li>
+                            <li class="eixo-prof-basico">Projeto e Desenvolvimento de Produtos <span class="tag-area tag-e5">E5</span></li>
+                            <li class="eixo-prof-especifico">Sistemas de Manutenção e Confiabilidade <span class="tag-area tag-e1">E1</span></li>
+                            <li class="eixo-prof-especifico">Tecnologia da Decisão II <span class="tag-area tag-e3">E3</span></li>
+                            <li class="eixo-interdisciplinar">Projeto Integrador Extensionista III <span class="tag-area tag-e10">E10</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="sem7">
+                        <div class="mode-badge in-person-badge">🏫 Modalidade: Presencial</div>
+                        <ul class="discipline-list">
+                            <li class="eixo-prof-basico">Gestão de Pessoas</li>
+                            <li class="eixo-prof-basico">Empreendedorismo <span class="tag-area tag-e6">E6</span></li>
+                            <li class="eixo-prof-especifico">Planejamento, Programação e Controle da Produção <span class="tag-area tag-e1">E1</span></li>
+                            <li class="eixo-prof-especifico">Tecnologia da Decisão III <span class="tag-area tag-e3">E3</span></li>
+                            <li class="eixo-interdisciplinar">Projeto Integrador Extensionista IV <span class="tag-area tag-e10">E10</span></li>
+                            <li class="eixo-optativa">Optativa II</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="sem8">
+                        <div class="mode-badge in-person-badge">🏫 Modalidade: Presencial</div>
+                        <ul class="discipline-list">
+                            <li class="eixo-prof-basico">Instalações Elétricas</li>
+                            <li class="eixo-prof-especifico">Logística <span class="tag-area tag-e2">E2</span></li>
+                            <li class="eixo-prof-especifico">Projeto de Instalações Industriais <span class="tag-area tag-e1">E1</span></li>
+                            <li class="eixo-prof-especifico">Simulação <span class="tag-area tag-e3">E3</span></li>
+                            <li class="eixo-interdisciplinar">Projeto Integrador Extensionista V <span class="tag-area tag-e10">E10</span></li>
+                            <li class="eixo-optativa">Optativa III</li>
+                            <li class="eixo-optativa">Optativa IV</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="sem9">
+                        <div class="mode-badge remote-badge">🌍 Modalidade Flexível: Permite formato à distância (EAD) por opção do aluno.</div>
+                        <ul class="discipline-list">
+                            <li class="eixo-prof-especifico">Engenharia Econômica <span class="tag-area tag-e7">E7</span></li>
+                            <li class="eixo-interdisciplinar">Trabalho de Conclusão de Curso I <span class="tag-area tag-e10">E10</span></li>
+                            <li class="eixo-optativa">Optativa V</li>
+                            <li class="eixo-optativa">Optativa VI</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="sem10">
+                        <div class="mode-badge remote-badge">🌍 Modalidade Flexível: Permite formato à distância (EAD) por opção do aluno.</div>
+                        <ul class="discipline-list">
+                            <li class="eixo-interdisciplinar">Estágio Supervisionado <span class="tag-area tag-e10">E10</span></li>
+                            <li class="eixo-interdisciplinar">Trabalho de Conclusão de Curso II <span class="tag-area tag-e10">E10</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Legenda de Eixos -->
+                <div class="legenda-container">
+                    <h3 class="legenda-title">Legenda: Eixos de Formação</h3>
+                    <div class="legenda-grid">
+                        <div class="legenda-item">
+                            <div class="legenda-color color-basico"></div> Eixo Básico
+                        </div>
+                        <div class="legenda-item">
+                            <div class="legenda-color color-prof-basico"></div> Eixo Profissionalizante Básico
+                        </div>
+                        <div class="legenda-item">
+                            <div class="legenda-color color-prof-especifico"></div> Eixo Profissionalizante Específico
+                        </div>
+                        <div class="legenda-item">
+                            <div class="legenda-color color-interdisciplinar"></div> Eixo Interdisciplinar
+                        </div>
+                        <div class="legenda-item">
+                            <div class="legenda-color color-optativa"></div> Eixo Optativas
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Legenda de Áreas (Tags) -->
+                <div class="legenda-container" style="margin-top: 1rem;">
+                    <h3 class="legenda-title">Tags por Áreas Predominantes</h3>
+                    <div class="legenda-grid">
+                        <div class="legenda-item"><span class="tag-area tag-e1">E1</span> Gestão de Operações</div>
+                        <div class="legenda-item"><span class="tag-area tag-e2">E2</span> Logística</div>
+                        <div class="legenda-item"><span class="tag-area tag-e3">E3</span> Pesquisa Operacional</div>
+                        <div class="legenda-item"><span class="tag-area tag-e4">E4</span> Engenharia da Qualidade</div>
+                        <div class="legenda-item"><span class="tag-area tag-e5">E5</span> Engenharia do Produto</div>
+                        <div class="legenda-item"><span class="tag-area tag-e6">E6</span> Engenharia Organizacional</div>
+                        <div class="legenda-item"><span class="tag-area tag-e7">E7</span> Engenharia Econômica</div>
+                        <div class="legenda-item"><span class="tag-area tag-e8">E8</span> Engenharia do Trabalho</div>
+                        <div class="legenda-item"><span class="tag-area tag-e9">E9</span> Eng. da Sustentabilidade</div>
+                        <div class="legenda-item"><span class="tag-area tag-e10">E10</span> Educação/Interdisciplinar</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="docentes" class="section">
+        <div class="container">
+            <h2 class="section-title">Corpo Docente</h2>
+            <p style="text-align: center; color: #94a3b8; margin-top: -2rem; margin-bottom: 3rem;">Conheça os professores do colegiado de Engenharia de Produção.</p>
+            <div class="docentes-grid">
+                <div class="docente-card glass-card">
+                    <h3>Prof. Dr. Alexandre José Sousa Ferreira</h3>
+                    <p class="titulacao">Doutor em Engenharia Têxtil</p>
+                    <a href="mailto:alexandrejose@ufpr.br" class="docente-email">alexandrejose@ufpr.br</a>
+                    <a href="http://lattes.cnpq.br/9421456809868235" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
+                </div>
+                <div class="docente-card glass-card">
+                    <h3>Prof. Dr. Andre Luiz Gazoli de Oliveira</h3>
+                    <p class="titulacao">Doutor em Engenharia de Produção e Sistemas</p>
+                    <a href="mailto:andre.gazoli@ufpr.br" class="docente-email">andre.gazoli@ufpr.br</a>
+                    <a href="http://lattes.cnpq.br/4734518314116679" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
+                </div>
+                <div class="docente-card glass-card">
+                    <h3>Prof. Dr. Giancarlo Alfonso Lovón Canchumani</h3>
+                    <p class="titulacao">Doutor em Planejamento Energético</p>
+                    <a href="mailto:giancarlo.lovon@ufpr.br" class="docente-email">giancarlo.lovon@ufpr.br</a>
+                    <a href="http://lattes.cnpq.br/7122125342731136" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
+                </div>
+                <div class="docente-card glass-card">
+                    <h3>Profa. Dra. Juliana Verga Shirabayashi</h3>
+                    <p class="titulacao">Doutora em Engenharia Elétrica</p>
+                    <a href="mailto:juliana.verga@ufpr.br" class="docente-email">juliana.verga@ufpr.br</a>
+                    <a href="http://lattes.cnpq.br/9382197673601710" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
+                </div>
+                <div class="docente-card glass-card">
+                    <h3>Prof. Dr. Landir Saviniec</h3>
+                    <p class="titulacao">Doutor em Ciências da Computação</p>
+                    <a href="mailto:landir.saviniec@ufpr.br" class="docente-email">landir.saviniec@ufpr.br</a>
+                    <a href="http://lattes.cnpq.br/9056036026979305" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
+                </div>
+                <div class="docente-card glass-card">
+                    <h3>Prof. Dr. Marco Aurelio Reis dos Santos</h3>
+                    <p class="titulacao">Doutor em Engenharia de Produção</p>
+                    <a href="mailto:marcos.santos@ufpr.br" class="docente-email">marcos.santos@ufpr.br</a>
+                    <a href="http://lattes.cnpq.br/7195995679689150" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
+                </div>
+                <div class="docente-card glass-card">
+                    <h3>Prof. Dr. Rafael Ariente Neto</h3>
+                    <p class="titulacao">Doutor em Engenharia Mecânica</p>
+                    <a href="mailto:rafael.ariente@ufpr.br" class="docente-email">rafael.ariente@ufpr.br</a>
+                    <a href="http://lattes.cnpq.br/3575495773818127" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
+                </div>
+                <div class="docente-card glass-card">
+                    <h3>Prof. Dr. Rafael Germano Dal Molin Filho</h3>
+                    <p class="titulacao">Doutor em Engenharia Química</p>
+                    <a href="mailto:rafaelfilho@ufpr.br" class="docente-email">rafaelfilho@ufpr.br</a>
+                    <a href="http://lattes.cnpq.br/1909388193748268" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
+                </div>
+                <div class="docente-card glass-card">
+                    <h3>Prof. Dr. William Rodrigues dos Santos</h3>
+                    <p class="titulacao">Doutor em Engenharia de Produção</p>
+                    <a href="mailto:w.santos@ufpr.br" class="docente-email">w.santos@ufpr.br</a>
+                    <a href="http://lattes.cnpq.br/5507046300736969" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="oportunidades" class="section dark-section">
+        <div class="container">
+            <h2 class="section-title">Oportunidades Dinâmicas</h2>
+            <p style="text-align: center; color: #94a3b8; margin-top: -2rem; margin-bottom: 3rem;">Vagas em tempo real do nosso banco de dados Python.</p>
+            <div class="card-grid">
+                {% for opp in opportunities %}
+                <div class="glass-card">
+                    <span class="badge">{{ opp.type }}</span>
+                    <h3 style="margin-top: 1rem;">{{ opp.title }}</h3>
+                    <p>{{ opp.description }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="section">
+        <div class="container">
+            <h2 class="section-title">Depoimentos</h2>
+            <p style="text-align: center; color: var(--text-muted); margin-top: -2rem; margin-bottom: 3rem;">Experiências de alunos, ex-alunos e parceiros do curso.</p>
+            <div class="carousel-container">
+                <button class="carousel-btn prev-btn">❮</button>
+                <button class="carousel-btn next-btn">❯</button>
+                <div class="carousel-track">
+                
+                <!-- Depoimento Texto -->
+                <div class="glass-card testimonial-card">
+                    <div class="testimonial-header" style="display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem;">
+                        <div style="font-size: 2.5rem;">🎓</div>
+                        <div>
+                            <h4 style="margin: 0; font-size: 1.1rem;">Maria Silva</h4>
+                            <span class="badge" style="font-size: 0.7rem; padding: 0.2rem 0.5rem;">Egressa (2025)</span>
+                        </div>
+                    </div>
+                    <p style="font-style: italic; color: var(--text-color);">"O curso me preparou de verdade para os desafios da Indústria 4.0. Consegui um emprego como engenheira de qualidade antes mesmo de colar grau!"</p>
+                </div>
+
+                <!-- Depoimento Audio -->
+                <div class="glass-card testimonial-card">
+                    <div class="testimonial-header" style="display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem;">
+                        <div style="font-size: 2.5rem;">🎧</div>
+                        <div>
+                            <h4 style="margin: 0; font-size: 1.1rem;">João Souza</h4>
+                            <span class="badge" style="font-size: 0.7rem; padding: 0.2rem 0.5rem; background: var(--secondary);">Aluno Atual</span>
+                        </div>
+                    </div>
+                    <p style="color: var(--text-color);">"Ouça um pouco sobre a minha vivência incrível na Empresa Júnior e nos laboratórios."</p>
+                    <!-- Audio placeholder -->
+                    <audio controls style="width: 100%; margin-top: 1rem; height: 35px; border-radius: 5px;">
+                        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+
+                <!-- Depoimento Vídeo -->
+                <div class="glass-card testimonial-card">
+                    <div class="testimonial-header" style="display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem;">
+                        <div style="font-size: 2.5rem;">🏭</div>
+                        <div>
+                            <h4 style="margin: 0; font-size: 1.1rem;">Ana Costa</h4>
+                            <span class="badge" style="font-size: 0.7rem; padding: 0.2rem 0.5rem; background: var(--accent);">Parceira Industrial</span>
+                        </div>
+                    </div>
+                    <p style="color: var(--text-color); margin-bottom: 1rem;">"Como os estagiários da UFPR estão impactando diretamente nossa linha de produção."</p>
+                    <!-- Video placeholder -->
+                    <video controls style="width: 100%; border-radius: 8px; border: 1px solid var(--glass-border);">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        Seu navegador não suporta vídeo.
+                    </video>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="inscreva" class="section">
+        <div class="container" style="max-width: 600px;">
+            <div class="glass-card" style="text-align: center;">
+                <h2 style="font-size: 2rem; margin-bottom: 1rem;">Interessado no Curso?</h2>
+                <p style="color: #94a3b8; margin-bottom: 2rem;">Deixe seu e-mail e seja avisado sobre o próximo Vestibular da UFPR.</p>
+                <form id="subscribe-form" class="subscribe-form">
+                    <input type="text" id="lead-name" placeholder="Seu Nome" required class="form-input">
+                    <input type="email" id="lead-email" placeholder="Seu E-mail" required class="form-input">
+                    <button type="submit" class="cta-button" style="width: 100%; margin-top: 1rem;">Quero ser avisado</button>
+                </form>
+                <div id="form-message" style="margin-top: 1rem; font-weight: bold;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ementa Modal -->
+    <div id="ementa-modal" class="modal">
+        <div class="modal-content glass-card">
+            <span class="close-modal">&times;</span>
+            <h3 id="modal-title" style="font-size: 1.5rem; color: var(--text-color);">Nome da Disciplina</h3>
+            <p id="modal-code" style="color: var(--primary); font-weight: 800; margin-bottom: 0.5rem; font-size: 1.1rem;"></p>
+            <p id="modal-carga" style="color: #94a3b8; font-weight: 600; margin-bottom: 1rem;"></p>
+            <h4 style="color: #f8fafc; margin-top: 1rem;">Ementa:</h4>
+            <p id="modal-ementa" style="color: #cbd5e1; line-height: 1.8; margin-bottom: 1rem;"></p>
+            <h4 style="color: #f8fafc;">Bibliografia Básica:</h4>
+            <p id="modal-bib" style="color: #cbd5e1; line-height: 1.6; font-size: 0.9rem;"></p>
+        </div>
+    </div>
+
+    <!-- Chatbot -->
+    <div class="chatbot-container">
+        <button id="chatbot-toggle" class="chatbot-toggle">💬</button>
+        <div id="chatbot-window" class="chatbot-window">
+            <div class="chatbot-header">
+                <h3>Assistente do Curso</h3>
+                <button id="chatbot-close">✕</button>
+            </div>
+            <div id="chatbot-messages" class="chatbot-messages">
+                <div class="message bot-message">Olá! Sou o assistente virtual (IA). Pergunte-me sobre o curso, mercado ou vestibular!</div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chat-input" placeholder="Digite sua dúvida...">
+                <button id="chat-send">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 Engenharia de Produção - UFPR Jandaia do Sul. Desenvolvido com tecnologia e inovação.</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

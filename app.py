@@ -5,9 +5,20 @@ from flask import Flask, render_template, request, jsonify, g, session, redirect
 import os
 import json
 from datetime import date, timedelta
+from flask_mail import Mail, Message
 
 app = Flask(__name__)
 app.secret_key = 'super_secret_key_ufpr_2026'
+
+# Configuração do Flask-Mail
+app.config['MAIL_SERVER'] = 'smtp.gmail.com'
+app.config['MAIL_PORT'] = 587
+app.config['MAIL_USE_TLS'] = True
+app.config['MAIL_USERNAME'] = os.environ.get('MAIL_USERNAME', 'seu_email_aqui@gmail.com')
+app.config['MAIL_PASSWORD'] = os.environ.get('MAIL_PASSWORD', 'sua_senha_de_app_aqui')
+app.config['MAIL_DEFAULT_SENDER'] = os.environ.get('MAIL_USERNAME', 'seu_email_aqui@gmail.com')
+
+mail = Mail(app)
 
 ementas_path = os.path.join(os.path.dirname(__file__), 'ementas.json')
 if os.path.exists(ementas_path):
@@ -105,6 +116,15 @@ def subscribe():
             db = get_db()
             db.execute('INSERT INTO leads (name, email) VALUES (?, ?)', (name, email))
             db.commit()
+            
+            # Disparo do Email
+            try:
+                msg = Message('Obrigado pelo seu interesse! - Engenharia de Produção UFPR', recipients=[email])
+                msg.body = f"Olá {name},\n\nAgradecemos seu interesse no curso de Engenharia de Produção da UFPR Jandaia do Sul! Seu e-mail foi registrado com sucesso em nosso banco de dados.\n\nNós enviaremos novidades e avisaremos você assim que o próximo vestibular ou processo seletivo estiver com inscrições abertas.\n\nFique à vontade para explorar nosso portal e conhecer mais sobre nossos projetos.\n\nAtenciosamente,\nEquipe de Engenharia de Produção\nUFPR Jandaia do Sul"
+                mail.send(msg)
+            except Exception as e:
+                print("Aviso: Falha ao enviar o e-mail (Credenciais SMTP não configuradas ou incorretas). Erro:", e)
+                
             return jsonify({'success': True})
     return jsonify({'success': False})
 
@@ -248,4 +268,4 @@ def export_leads():
 if __name__ == '__main__':
     with app.app_context():
         init_db()
-    app.run(debug=True, port=5000)
+    app.run(debug=True, port=5001)
