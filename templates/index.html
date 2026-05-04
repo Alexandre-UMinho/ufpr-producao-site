@@ -15,10 +15,12 @@
         <div class="logo">UFPR <span>Produção</span></div>
         <ul class="nav-links">
             <li><a href="#sobre">Sobre o Curso</a></li>
-            <li><a href="#diferenciais">Diferenciais</a></li>
             <li><a href="#grade">Grade</a></li>
             <li><a href="#docentes">Docentes</a></li>
-            <li><a href="#oportunidades">Oportunidades</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="/acervo">Acervo</a></li>
+            <li><a href="/admin">Portal Docente</a></li>
+            <li><button id="theme-toggle" class="theme-toggle" title="Alternar Tema Escuro/Claro"><span class="theme-icon">☀️</span> Light Mode</button></li>
         </ul>
     </nav>
 
@@ -31,7 +33,7 @@
                 <a href="#sobre" class="cta-button">Conheça o Curso</a>
             </div>
             <div class="hero-image-wrapper">
-                <img src="{{ url_for('static', filename='images/campus.jpg') }}" alt="Campus UFPR Jandaia do Sul" class="hero-image">
+                <img src="{{ url_for('static', filename='images/UFPR Isometric.png') }}" alt="Campus UFPR Jandaia do Sul" class="hero-image">
                 <div class="floating-badge">
                     <span>📍</span> Vale do Ivaí
                 </div>
@@ -47,21 +49,26 @@
     <section id="sobre" class="section">
         <div class="container">
             <h2 class="section-title">Formando Líderes do Futuro</h2>
-            <div class="card-grid">
+            <div class="card-grid leaders-grid">
+                <div class="glass-card">
+                    <div class="icon">🔧</div>
+                    <h3>Engenharia</h3>
+                    <p>Base sólida em engenharia para resolver problemas complexos com rigor técnico e científico.</p>
+                </div>
+                <div class="glass-card">
+                    <div class="icon">🏭</div>
+                    <h3>Gestão Industrial</h3>
+                    <p>Desenvolvimento de habilidades de liderança e estratégia focadas no ambiente de produção.</p>
+                </div>
                 <div class="glass-card">
                     <div class="icon">🚀</div>
                     <h3>Inovação</h3>
-                    <p>Integração de novas tecnologias, Indústria 4.0 e processos sustentáveis.</p>
+                    <p>Integração de novas tecnologias, Indústria 4.0 e processos sustentáveis inovadores.</p>
                 </div>
                 <div class="glass-card">
-                    <div class="icon">📊</div>
-                    <h3>Gestão</h3>
-                    <p>Desenvolvimento de habilidades de liderança e tomada de decisão estratégica.</p>
-                </div>
-                <div class="glass-card">
-                    <div class="icon">⚙️</div>
-                    <h3>Otimização</h3>
-                    <p>Foco na eficiência e melhoria contínua de sistemas produtivos e serviços.</p>
+                    <div class="icon">📈</div>
+                    <h3>Melhoria e Otimização</h3>
+                    <p>Foco na eficiência, redução de desperdícios e aprimoramento contínuo de sistemas operacionais.</p>
                 </div>
             </div>
         </div>
@@ -74,7 +81,22 @@
                 <div class="text-content">
                     <p>Nosso campus no Vale do Ivaí oferece uma infraestrutura moderna e um corpo docente altamente qualificado. Com um ambiente acolhedor, você terá contato próximo com professores e pesquisadores, além de oportunidades reais em projetos de extensão e iniciação científica.</p>
                     <ul class="feature-list">
-                        <li><span>✓</span> Laboratórios altamente equipados</li>
+                        <li class="dropdown-trigger" id="lab-dropdown-btn">
+                            <span>✓</span> Laboratórios altamente equipados <span class="arrow-icon">▼</span>
+                            <div class="dropdown-content" id="lab-dropdown-content">
+                                <ul>
+                                    <li>Laboratório de Física</li>
+                                    <li>Laboratório de Química</li>
+                                    <li>Laboratório de Informática Aplicado a Eng. de Produção (LIAEP)</li>
+                                    <li>Laboratório "Hands-on"</li>
+                                    <li>Laboratório de Protótipos de Máquinas e Mecanização Agrícola</li>
+                                    <li>Laboratório Maker de Inovação em Eng. do Produto e Trabalho (LIEPT)</li>
+                                    <li>Laboratório de Gestão de Resíduos e Tecnologias Sustentáveis (LabGERTS)</li>
+                                    <li>Laboratório de Energia, Eletrotécnica e Automação</li>
+                                    <li>Laboratórios de Pesquisa Operacional e Simulação (LIPOSAD e LaMSS)</li>
+                                </ul>
+                            </div>
+                        </li>
                         <li><span>✓</span> Foco na realidade industrial da região</li>
                         <li><span>✓</span> Ensino público, gratuito e de excelência</li>
                     </ul>
@@ -296,54 +318,90 @@
                     <p class="titulacao">Doutor em Engenharia Têxtil</p>
                     <a href="mailto:alexandrejose@ufpr.br" class="docente-email">alexandrejose@ufpr.br</a>
                     <a href="http://lattes.cnpq.br/9421456809868235" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
                 </div>
                 <div class="docente-card glass-card">
                     <h3>Prof. Dr. Andre Luiz Gazoli de Oliveira</h3>
                     <p class="titulacao">Doutor em Engenharia de Produção e Sistemas</p>
                     <a href="mailto:andre.gazoli@ufpr.br" class="docente-email">andre.gazoli@ufpr.br</a>
                     <a href="http://lattes.cnpq.br/4734518314116679" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
                 </div>
                 <div class="docente-card glass-card">
                     <h3>Prof. Dr. Giancarlo Alfonso Lovón Canchumani</h3>
                     <p class="titulacao">Doutor em Planejamento Energético</p>
                     <a href="mailto:giancarlo.lovon@ufpr.br" class="docente-email">giancarlo.lovon@ufpr.br</a>
                     <a href="http://lattes.cnpq.br/7122125342731136" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
                 </div>
                 <div class="docente-card glass-card">
                     <h3>Profa. Dra. Juliana Verga Shirabayashi</h3>
                     <p class="titulacao">Doutora em Engenharia Elétrica</p>
                     <a href="mailto:juliana.verga@ufpr.br" class="docente-email">juliana.verga@ufpr.br</a>
                     <a href="http://lattes.cnpq.br/9382197673601710" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
                 </div>
                 <div class="docente-card glass-card">
                     <h3>Prof. Dr. Landir Saviniec</h3>
                     <p class="titulacao">Doutor em Ciências da Computação</p>
                     <a href="mailto:landir.saviniec@ufpr.br" class="docente-email">landir.saviniec@ufpr.br</a>
                     <a href="http://lattes.cnpq.br/9056036026979305" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
                 </div>
                 <div class="docente-card glass-card">
                     <h3>Prof. Dr. Marco Aurelio Reis dos Santos</h3>
                     <p class="titulacao">Doutor em Engenharia de Produção</p>
                     <a href="mailto:marcos.santos@ufpr.br" class="docente-email">marcos.santos@ufpr.br</a>
                     <a href="http://lattes.cnpq.br/7195995679689150" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
                 </div>
                 <div class="docente-card glass-card">
                     <h3>Prof. Dr. Rafael Ariente Neto</h3>
                     <p class="titulacao">Doutor em Engenharia Mecânica</p>
                     <a href="mailto:rafael.ariente@ufpr.br" class="docente-email">rafael.ariente@ufpr.br</a>
                     <a href="http://lattes.cnpq.br/3575495773818127" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
                 </div>
                 <div class="docente-card glass-card">
                     <h3>Prof. Dr. Rafael Germano Dal Molin Filho</h3>
                     <p class="titulacao">Doutor em Engenharia Química</p>
                     <a href="mailto:rafaelfilho@ufpr.br" class="docente-email">rafaelfilho@ufpr.br</a>
                     <a href="http://lattes.cnpq.br/1909388193748268" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
                 </div>
                 <div class="docente-card glass-card">
                     <h3>Prof. Dr. William Rodrigues dos Santos</h3>
                     <p class="titulacao">Doutor em Engenharia de Produção</p>
                     <a href="mailto:w.santos@ufpr.br" class="docente-email">w.santos@ufpr.br</a>
                     <a href="http://lattes.cnpq.br/5507046300736969" target="_blank" class="docente-lattes">Acessar Lattes</a>
+                    <div class="docente-buttons">
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Pesquisa em desenvolvimento')">Projetos de Pesquisa</button>
+                        <button class="docente-btn" onclick="alert('Página de Projetos de Extensão em desenvolvimento')">Projetos de Extensão</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -361,6 +419,66 @@
                     <p>{{ opp.description }}</p>
                 </div>
                 {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="section">
+        <div class="container">
+            <h2 class="section-title">Depoimentos</h2>
+            <p style="text-align: center; color: var(--text-muted); margin-top: -2rem; margin-bottom: 3rem;">Experiências de alunos, ex-alunos e parceiros do curso.</p>
+            <div class="carousel-container">
+                <button class="carousel-btn prev-btn">❮</button>
+                <button class="carousel-btn next-btn">❯</button>
+                <div class="carousel-track">
+                
+                <!-- Depoimento Texto -->
+                <div class="glass-card testimonial-card">
+                    <div class="testimonial-header" style="display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem;">
+                        <div style="font-size: 2.5rem;">🎓</div>
+                        <div>
+                            <h4 style="margin: 0; font-size: 1.1rem;">Maria Silva</h4>
+                            <span class="badge" style="font-size: 0.7rem; padding: 0.2rem 0.5rem;">Egressa (2025)</span>
+                        </div>
+                    </div>
+                    <p style="font-style: italic; color: var(--text-color);">"O curso me preparou de verdade para os desafios da Indústria 4.0. Consegui um emprego como engenheira de qualidade antes mesmo de colar grau!"</p>
+                </div>
+
+                <!-- Depoimento Audio -->
+                <div class="glass-card testimonial-card">
+                    <div class="testimonial-header" style="display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem;">
+                        <div style="font-size: 2.5rem;">🎧</div>
+                        <div>
+                            <h4 style="margin: 0; font-size: 1.1rem;">João Souza</h4>
+                            <span class="badge" style="font-size: 0.7rem; padding: 0.2rem 0.5rem; background: var(--secondary);">Aluno Atual</span>
+                        </div>
+                    </div>
+                    <p style="color: var(--text-color);">"Ouça um pouco sobre a minha vivência incrível na Empresa Júnior e nos laboratórios."</p>
+                    <!-- Audio placeholder -->
+                    <audio controls style="width: 100%; margin-top: 1rem; height: 35px; border-radius: 5px;">
+                        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+
+                <!-- Depoimento Vídeo -->
+                <div class="glass-card testimonial-card">
+                    <div class="testimonial-header" style="display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem;">
+                        <div style="font-size: 2.5rem;">🏭</div>
+                        <div>
+                            <h4 style="margin: 0; font-size: 1.1rem;">Ana Costa</h4>
+                            <span class="badge" style="font-size: 0.7rem; padding: 0.2rem 0.5rem; background: var(--accent);">Parceira Industrial</span>
+                        </div>
+                    </div>
+                    <p style="color: var(--text-color); margin-bottom: 1rem;">"Como os estagiários da UFPR estão impactando diretamente nossa linha de produção."</p>
+                    <!-- Video placeholder -->
+                    <video controls style="width: 100%; border-radius: 8px; border: 1px solid var(--glass-border);">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        Seu navegador não suporta vídeo.
+                    </video>
+                </div>
+
+            </div>
             </div>
         </div>
     </section>
@@ -385,8 +503,12 @@
         <div class="modal-content glass-card">
             <span class="close-modal">&times;</span>
             <h3 id="modal-title" style="font-size: 1.5rem; color: var(--text-color);">Nome da Disciplina</h3>
-            <p id="modal-code" style="color: var(--primary); font-weight: 800; margin-bottom: 1rem; font-size: 1.1rem;"></p>
-            <p id="modal-ementa" style="color: #cbd5e1; line-height: 1.8;"></p>
+            <p id="modal-code" style="color: var(--primary); font-weight: 800; margin-bottom: 0.5rem; font-size: 1.1rem;"></p>
+            <p id="modal-carga" style="color: #94a3b8; font-weight: 600; margin-bottom: 1rem;"></p>
+            <h4 style="color: #f8fafc; margin-top: 1rem;">Ementa:</h4>
+            <p id="modal-ementa" style="color: #cbd5e1; line-height: 1.8; margin-bottom: 1rem;"></p>
+            <h4 style="color: #f8fafc;">Bibliografia Básica:</h4>
+            <p id="modal-bib" style="color: #cbd5e1; line-height: 1.6; font-size: 0.9rem;"></p>
         </div>
     </div>
 
